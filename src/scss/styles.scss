@@ -1,0 +1,77 @@
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+// @use "./mixins/mixins" as m;
+// @use "./variables/variables" as v;
+$base-padding-left-right: 80px;
+$base-padding-top-bottom: 25px;
+$button-primary-color: #fad725;
+header {
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+  }
+  nav {
+    .nav__searchform {
+      .submit-btn {
+        border-radius: 4px;
+        background-color: $button-primary-color;
+        outline: none;
+        border: none;
+      }
+      button:nth-child(1) {
+        background-color: transparent;
+        border-radius: 4px;
+        border: 1px solid black;
+      }
+    }
+  }
+}
+.hero {
+  padding: 20px;
+  .hero__container__right {
+    background-image: url("../../../novusa-home-page/src/assets/images/grouped-girl-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: fit-content;
+    height: 500px;
+    width: 100vw;
+  }
+}
+.hero__container__left__bottom {
+  justify-content: flex-start;
+}
+@media screen and (min-width: 990px) {
+  header {
+    .navbar {
+      padding-left: $base-padding-left-right;
+      padding-right: $base-padding-left-right;
+      .navbar-collapse {
+        flex-grow: 0;
+        display: flex;
+        gap: 4rem;
+      }
+    }
+  }
+  main {
+    .hero {
+      padding: $base-padding-top-bottom $base-padding-left-right;
+      .row {
+        flex-wrap: nowrap;
+        .col-12 {
+          .hero__container__left__bottom {
+            gap: 25px;
+            justify-content: flex-start !important;
+            button{
+              border-radius: 4px;
+        background-color: $button-primary-color;
+        outline: none;
+        border: none;
+        color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

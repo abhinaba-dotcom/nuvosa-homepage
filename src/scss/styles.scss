@@ -1,5 +1,6 @@
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
+
 .font-special-color {
   color: #6f77f1;
 }
@@ -21,7 +22,8 @@
   width: 70px;
 }
 
-.business-container {
+.business-container,
+.review-container {
   background-color: #fafafa;
 }
 .choose-us-container,
@@ -45,30 +47,179 @@ input {
 }
 .translate-card:hover {
   transform: scale(1.2);
+  background-color: #6f77f1;
+  color: white;
 }
-.font-90px{
+.pricing-container .row .col-12 .card .card-top p {
+  color: #6f77f1;
+}
+.pricing-container .row .col-12 .card:hover .card-body p {
+  color: white;
+}
+.pricing-container .row .col-12 .card:hover .card-top p {
+  color: white;
+}
+.translate-card:hover button {
+  background-color: #fad725;
+  color: white;
+  border: none;
+}
+.optimising-card,
+.growth-card,
+.choose-us-card,
+.seo-card {
+  transition: transform 0.3s ease;
+}
+.optimising-card:hover,
+.growth-card:hover,
+.choose-us-card:hover,
+.seo-card:hover {
+  transform: scale(1.2);
+  background-color: white;
+  box-shadow: 5px 5px 5px 6px rgba(240, 238, 238, 0.3);
+}
+.choose-us-card:hover,
+.seo-card:hover {
+  transform: scale(1.1);
+}
+.font-90px {
   font-size: 90px;
   font-weight: 700;
 }
-.font-20px{
+.font-20px {
   font-size: 20px;
   font-weight: 400;
   color: rgba(114, 114, 114, 1);
 }
-.font-55px{
+.font-55px {
   font-size: 55px;
   font-weight: 500;
 }
-.font-17px{
-  font-size: 20px;
-  font-weight: 400;
-  color: rgba(114, 114, 114, 1);
+.feedback-row-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  overflow-x: auto;
+  .feedback-row-item {
+    float: 0 0 auto;
+  }
+}
+.subsribe-container {
+  background-color: #fafafa;
+  .button-box {
+    input {
+      background-color: white;
+    }
+    button {
+      background-color: #6f77f1;
+      color: white;
+    }
+  }
+}
+li {
+  list-style: none;
+}
+.footer-end-section {
+  p {
+    font-size: 14px;
+  }
+}
+.para-color1 {
+  color: #727272;
+}
+.para-color2 {
+  color: #828282;
+}
+.para-color3 {
+  color: #727272;
+}
+.button-primary1 {
+  background-color: rgba(250, 215, 37, 1);
 }
 @media screen and (min-width: 992px) {
-  .business-container-left{
+  .special-container-left {
     margin-right: -45px;
   }
-  .business-container-right{
+  .special-container-right {
     margin-right: -90px;
+  }
+  .hero-container-left {
+    margin-right: -45px;
+  }
+  .hero-container-right {
+    margin-right: -90px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .width-75 {
+    width: 75%;
+  }
+  .font-size-20px {
+    font-size: 20px;
+  }
+  .font-17px {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+  }
+  .px-100px {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .px-34px {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+  .w-responsive-50 {
+    width: 50%;
+  }
+  .w-responsive-75 {
+    width: 75%;
+  }
+  .px-115px {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .h-334px {
+    height: 300px;
+  }
+  .font-38px {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .pl-15px {
+    padding-left: 15px;
+  }
+  .heading-responsive-size {
+    font-size: 55px;
+    font-weight: 500;
+  }
+  .para-responsive-size {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .marketing-card {
+    box-shadow: 5px 5px 6px rgba(179, 177, 177, 0.3);
+    border: none;
+  }
+  .hero-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero-container {
+    h1 {
+      font-size: 90px;
+      font-weight: 700;
+    }
+  }
+  .take-a-tour {
+    height: 65px;
+  }
+  .button-1 {
+    padding: 20px 40px;
+    background-color: rgba(250, 215, 37, 1);
   }
 }

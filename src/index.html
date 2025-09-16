@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nuvosa - Home page</title>
     <script type="module" src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header section -->
@@ -66,29 +72,43 @@
     </header>
     <main>
       <!-- Hero section -->
-      <section class="hero-container container">
-        <div class="row row-cols-2 align-items-lg-center">
-          <div class="col-12 col-lg-6 order-1 order-lg-0 g-4">
-            <h1 class="text-center text-lg-start">Increase your web traffic with our</h1>
-            <p class="text-center text-lg-start">
+      <section class="hero-container container py-5">
+        <div
+          class="row row-cols-2 align-items-lg-center d-flex justify-content-lg-center"
+        >
+          <div
+            class="col-12 col-lg-6 order-1 order-lg-0 g-4 hero-container-left"
+          >
+            <h1 class="text-center text-lg-start">
+              Increase your web traffic with our
+            </h1>
+            <p
+              class="text-center text-lg-start para-color1 para-responsive-size"
+            >
               It is a long established fact that a reader will be distracted by
               the readable content of a page when It is a long .It is a long
               established fact that a reader will be distracted by the readable
               content of a is simply. It is a long established fact that a
               reader will be distracted.
             </p>
-            <div class="button-box d-flex gap-4 justify-content-between justify-content-lg-start">
-              <button class="submit-btn btn yellow-btn" type="submit">
+            <div
+              class="button-box d-flex gap-4 justify-content-between justify-content-lg-start gap-lg-5"
+            >
+              <button
+                class="submit-btn btn button-1 button-primary1"
+                type="submit"
+              >
                 Get Started
               </button>
               <img
+                class="take-a-tour"
                 height="35px"
                 src="./assets/images/take-a-tour-btn.png"
                 alt=""
               />
             </div>
           </div>
-          <div class="col-12 col-lg-6 order-0 order-lg-1">
+          <div class="col-12 col-lg-6 order-0 order-lg-1 hero-container-right">
             <div class="container d-flex">
               <img
                 width="80%"
@@ -101,86 +121,98 @@
         </div>
       </section>
       <!-- Marketing section -->
-      <section class="marketing-container container my-5">
-        <div class="row row-cols-3 gap-2 justify-content-center gap-lg-4">
-          <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+      <section class="marketing-container container my-5 py-5">
+        <div
+          class="row row-cols-3 gap-2 justify-content-center gap-lg-4 justify-content-lg-evenly"
+        >
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center align-items-center"
+          >
             <div
-              class="card py-2 d-flex justify-content-center align-items-center w-100"
-              
+              class="card py-2 d-flex justify-content-center align-items-center w-100 marketing-card"
             >
               <div
-                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row"
+                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row pl-15px"
               >
                 <img
                   src="./assets/images/messageicon1.svg"
                   class="card-img-top"
                   alt="..."
                 />
-                <h5 class="card-title">Social Media Management</h5>
+                <h5 class="card-title font-38px">Social Media Management</h5>
               </div>
               <div
                 class="card-body d-flex flex-column gap-4 justify-content-center align-items-center"
               >
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the readable content .It is a long established fact that .
                 </p>
-                <a href="#" class="text-decoration-none align-self-lg-end"
+                <a
+                  href="#"
+                  class="text-decoration-none align-self-lg-end text-black"
                   >&rarr;</a
                 >
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center align-items-center"
+          >
             <div
-              class="card py-2 d-flex justify-content-center align-items-center w-100"
-              
+              class="card py-2 d-flex justify-content-center align-items-center w-100 marketing-card"
             >
               <div
-                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row"
+                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row pl-15px"
               >
                 <img
                   src="./assets/images/messageicon2.svg"
                   class="card-img-top"
                   alt="..."
                 />
-                <h5 class="card-title">Social Media Management</h5>
+                <h5 class="card-title font-38px">Email Marketing</h5>
               </div>
               <div
                 class="card-body d-flex flex-column gap-4 justify-content-center align-items-center"
               >
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the readable content .It is a long established fact that .
                 </p>
-                <a href="#" class="text-decoration-none align-self-lg-end"
+                <a
+                  href="#"
+                  class="text-decoration-none align-self-lg-end text-black"
                   >&rarr;</a
                 >
               </div>
             </div>
           </div>
-          <div class="col-12 col-lg-3 d-flex justify-content-center align-items-center">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center align-items-center"
+          >
             <div
-              class="card py-2 d-flex justify-content-center align-items-center w-100"
+              class="card px-4 py-4 d-flex justify-content-center align-items-center w-100 marketing-card h-334px"
             >
               <div
-                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row"
+                class="card-top d-flex flex-column gap-4 justify-content-center align-items-center flex-lg-row pl-15px"
               >
                 <img
                   src="./assets/images/messageicon3.svg"
                   class="card-img-top"
                   alt="..."
                 />
-                <h5 class="card-title">Social Media Management</h5>
+                <h5 class="card-title font-38px">SEO Management</h5>
               </div>
               <div
                 class="card-body d-flex flex-column gap-4 justify-content-center align-items-center"
               >
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the readable content .It is a long established fact that .
                 </p>
-                <a href="#" class="text-decoration-none align-self-lg-end"
+                <a
+                  href="#"
+                  class="text-decoration-none align-self-lg-end text-black"
                   >&rarr;</a
                 >
               </div>
@@ -189,15 +221,19 @@
         </div>
       </section>
       <!-- Optimising section -->
-      <section class="optimising-container container my-5">
-        <h2 class="text-center text-lg-start">Optimising your <span class="font-special-color">Website</span></h2>
-        <p class="text-center text-lg-start">
+      <section class="optimising-container container my-5 py-5 px-115px">
+        <h2 class="text-center text-lg-start heading-responsive-size">
+          Optimising your <span class="font-special-color">Website</span>
+        </h2>
+        <p
+          class="text-center text-lg-start para-color2 para-responsive-size w-responsive-50"
+        >
           It is a long established fact that a reader will be distracted by the
           readable content of a page when It is a long .
         </p>
         <div class="row row-cols-4 mt-5 g-lg-5">
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+            <div class="card py-2 d-flex border-0 gap-4 optimising-card" style="width: 18rem">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -211,7 +247,7 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Keyword Research</h5>
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2 w-100">
                   It is a long established fact that a reader will be distracted
                   by the It is a long established .
                 </p>
@@ -219,7 +255,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+            <div class="card py-2 d-flex border-0 gap-4 optimising-card" style="width: 18rem">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -233,7 +269,7 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Keyword Research</h5>
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the It is a long established .
                 </p>
@@ -241,7 +277,7 @@
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+            <div class="card py-2 d-flex border-0 gap-4 optimising-card" style="width: 18rem">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -255,7 +291,7 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Keyword Research</h5>
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the It is a long established .
                 </p>
@@ -264,7 +300,7 @@
           </div>
           <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
             <div
-              class="card py-2 d-flex gap-4 border border-black border-0"
+              class="card py-2 d-flex gap-4 border border-black border-0 optimising-card"
               style="width: 18rem"
             >
               <div
@@ -280,7 +316,7 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Keyword Research</h5>
-                <p class="card-text text-center text-lg-start">
+                <p class="card-text text-center text-lg-start para-color2">
                   It is a long established fact that a reader will be distracted
                   by the It is a long established .
                 </p>
@@ -292,25 +328,29 @@
       <!-- Business container -->
       <section class="business-container container-fluid px-lg-5 py-5">
         <div
-          class="row row-cols-2 align-items-lg-center justify-content-lg-center g-0"
+          class="row row-cols-2 align-items-lg-center justify-content-lg-center g-0 px-100px"
         >
-          <div class="col-12 col-lg-6 order-1 order-lg-0 d-flex flex-column align-items-center align-items-lg-start business-container-left">
-            <h1 class="text-center text-lg-start">
+          <div
+            class="col-12 col-lg-6 order-1 order-lg-0 d-flex flex-column align-items-center align-items-lg-start special-container-left"
+          >
+            <h1 class="text-center text-lg-start heading-responsive-size">
               Perfect Solution For Your
               <span class="font-special-color">Business</span>
             </h1>
-            <p class="text-center text-lg-start">
+            <p class="text-center text-lg-start para-color1">
               It is a long established fact that a reader will be distracted by
               the It is a long established .t is a long established fact that a
               reader will be distracted by the readable content of .
             </p>
             <div class="button-box d-flex gap-4">
-              <button class="submit-btn btn yellow-btn" type="submit">
+              <button class="submit-btn btn yellow-btn button-1 button-primary1" type="submit">
                 Learn More
               </button>
             </div>
           </div>
-          <div class="col-12 col-lg-6 order-0 order-lg-1 business-container-right">
+          <div
+            class="col-12 col-lg-6 order-0 order-lg-1 special-container-right"
+          >
             <div class="container d-flex computer-img">
               <img
                 width="50%"
@@ -323,12 +363,12 @@
         </div>
       </section>
       <!-- Growth section -->
-      <section class="growth-container container my-5">
+      <section class="growth-container container py-5">
         <div
-          class="row row-cols-4 mt-5 g-lg-5 justify-content-center align-items-center"
+          class="row row-cols-4 py-5 g-lg-5 justify-content-center align-items-center g-md-4"
         >
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+          <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="card py-2 d-flex border-0 gap-4 growth-card">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -342,8 +382,9 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Grow Your Business</h5>
-                <p class="card-text text-center text-lg-start">
-                  It is a long established fact that a reader will be distracted by.
+                <p class="card-text text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by.
                 </p>
                 <a href="#" class="text-decoration-none font-special-color"
                   >Read more...</a
@@ -351,8 +392,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+          <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="card py-2 d-flex border-0 gap-4 growth-card">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -366,8 +407,9 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Get Quality leads</h5>
-                <p class="card-text text-center text-lg-start">
-                  It is a long established fact that a reader will be distracted by.
+                <p class="card-text text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by.
                 </p>
                 <a href="#" class="text-decoration-none font-special-color"
                   >Read more...</a
@@ -375,8 +417,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+          <div class="col-12 col-lg-3 d-flex justify-content-center">
+            <div class="card py-2 d-flex border-0 gap-4 growth-card">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -390,8 +432,9 @@
                 class="card-body d-flex flex-column justify-content-center align-items-center align-items-lg-start"
               >
                 <h5 class="card-title">Drive more sales</h5>
-                <p class="card-text text-center text-lg-start">
-                  It is a long established fact that a reader will be distracted by.
+                <p class="card-text text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by.
                 </p>
                 <a href="#" class="text-decoration-none font-special-color"
                   >Read more...</a
@@ -402,17 +445,18 @@
         </div>
       </section>
       <!-- Choose us section -->
-      <section class="choose-us-container container my-5 py-5">
-        <h2 class="text-center">
+      <section class="choose-us-container container-fluid py-5 d-flex flex-column align-items-center">
+        <h2 class="text-center heading-responsive-size">
           Why You Should <span class="font-special-color">Choose Us.</span>
         </h2>
-        <p class="text-center">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when It is a long .
+        <p class="text-center para-color1 w-responsive-50">
+          It is a long established fact that a reader will be distracted by the readable content .It is a long established fact that a reader .It is a long established fact that a reader will be .
         </p>
-        <div class="row row-cols-3 mt-5 g-lg-5 justify-content-center">
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+        <div class="row row-cols-3 mt-5 g-lg-5 justify-content-center w-100">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center my-4"
+          >
+            <div class="card py-2 d-flex border-0 gap-4 choose-us-card" style="width: 22rem;">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -423,10 +467,10 @@
                 />
               </div>
               <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
+                class="card-body d-flex flex-column justify-content-center align-items-center gap-2"
               >
                 <h5 class="card-title">See optimazadion</h5>
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
@@ -434,8 +478,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center my-4"
+          >
+            <div class="card py-2 d-flex border-0 gap-4 choose-us-card" style="width: 22rem;">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -446,10 +492,10 @@
                 />
               </div>
               <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
+                class="card-body d-flex flex-column justify-content-center align-items-center gap-2"
               >
                 <h5 class="card-title">Keyword research</h5>
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
@@ -457,8 +503,10 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center">
-            <div class="card py-2 d-flex border-0 gap-4" style="width: 18rem">
+          <div
+            class="col-12 col-lg-3 d-flex justify-content-center my-4"
+          >
+            <div class="card py-2 d-flex border-0 gap-4 choose-us-card" style="width: 22rem;">
               <div
                 class="card-top px-4 d-flex justify-content-center align-items-center justify-content-lg-start"
               >
@@ -469,10 +517,10 @@
                 />
               </div>
               <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
+                class="card-body d-flex flex-column justify-content-center align-items-center gap-2"
               >
                 <h5 class="card-title">Social marketing</h5>
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
@@ -486,68 +534,68 @@
       <section class="seo-container container my-5 py-5 px-4">
         <div class="row row-cols-2 align-items-lg-center g-5">
           <div class="col-12 col-lg-6 order-1">
-            <h1>
+            <h1 class="text-center text-lg-start">
               You Make Ask What SEO & Why Do
               <span class="font-special-color">You Need It?</span>
             </h1>
-            <p>
+            <p class="text-center text-lg-start para-color1">
               It is a long established fact that a reader will be distracted by
               the readable content .It is a long established fact that a reader
               .It is a long.
             </p>
-            <div class="d-flex gap-4 flex-column my-5">
+            <div class="d-flex flex-column py-4 gap-4">
               <div
-                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4"
+                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4 seo-card width-75"
               >
                 <img
-                  width="50px"
-                  height="50px"
+                  width="65px"
+                  height="65px"
                   src="./assets/images/email.svg"
                   alt=""
                 />
                 <div
-                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-lg-start"
+                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-md-start"
                 >
-                  <h4>Social media marketing</h4>
-                  <p class="text-center">
+                  <h4 class="font-size-20px">Social media marketing</h4>
+                  <p class="text-center text-lg-start para-color2">
                     It is a long established fact that a reader will be
                     distracted by the.
                   </p>
                 </div>
               </div>
               <div
-                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4"
+                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4 seo-card width-75"
               >
                 <img
-                  width="50px"
-                  height="50px"
+                  width="65px"
+                  height="65px"
                   src="./assets/images/email2.svg"
                   alt=""
                 />
                 <div
-                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-lg-start"
+                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-md-start"
                 >
-                  <h4>Email marketing</h4>
-                  <p class="text-center">
+                  <h4 class="font-size-20px">Email marketing</h4>
+                  <p class="text-center text-lg-start para-color2">
                     It is a long established fact that a reader will be
                     distracted by the.
                   </p>
                 </div>
               </div>
               <div
-                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4"
+                class="card-left d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-lg-4 seo-card width-75"
               >
                 <img
-                  width="50px"
-                  height="50px"
+                  width="65px"
+                  height="65px"
                   src="./assets/images/email3.svg"
                   alt=""
                 />
                 <div
-                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-lg-start"
+                  class="card-right d-flex flex-column justify-content-center align-items-center align-items-md-start"
                 >
-                  <h4>SEO optimization</h4>
-                  <p class="text-center">
+                  <h4 class="font-size-20px">SEO optimization</h4>
+                  <p class="text-center text-lg-start para-color2">
                     It is a long established fact that a reader will be
                     distracted by the.
                   </p>
@@ -568,32 +616,32 @@
         </div>
       </section>
       <!-- Review section -->
-      <section class="review-contaienr container my-5">
+      <section class="review-container container-fluid my-5">
         <div
-          class="row row-cols-4 justify-content-center align-items-center border border-md-1 border-black py-4 w-auto rounded-1 g-lg-0"
+          class="row row-cols-4 justify-content-center align-items-center py-4 w-auto rounded-1 g-lg-0"
         >
           <div
-            class="col-12 col-md-2 col-lg-3 d-flex flex-column justify-content-center align-items-center "
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
           >
-            <h4>86</h4>
+            <h4 class="font-55px">86</h4>
             <p>Happy Clients</p>
           </div>
           <div
-            class="col-12 col-md-2 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
           >
-            <h4>118</h4>
+            <h4 class="font-55px">118</h4>
             <p>Projecrts Done</p>
           </div>
           <div
-            class="col-12 col-md-2 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
           >
-            <h4>86+</h4>
+            <h4 class="font-55px">86+</h4>
             <p>Years Of Experience</p>
           </div>
           <div
-            class="col-12 col-md-2 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
+            class="col-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-center mt-4"
           >
-            <h4>14</h4>
+            <h4 class="font-55px">14</h4>
             <p>National Awards</p>
           </div>
         </div>
@@ -603,12 +651,14 @@
         <div
           class="row row-cols-2 align-items-lg-center justify-content-lg-center"
         >
-          <div class="col-12 col-lg-6 order-1 order-lg-0">
-            <h1>
+          <div
+            class="col-12 col-lg-6 order-1 order-lg-0 special-container-left"
+          >
+            <h1 class="text-center text-lg-start">
               Check Your Website
               <span class="font-special-color">Speed</span>
             </h1>
-            <p>
+            <p class="text-center text-lg-start para-color1">
               It is a long established fact that a reader will be distracted by
               the readable content .It is a long established fact that a reader
               .It is a long.
@@ -623,7 +673,9 @@
               </button>
             </div>
           </div>
-          <div class="col-12 col-lg-6 order-0 order-lg-1 mb-5">
+          <div
+            class="col-12 col-lg-6 order-0 order-lg-1 mb-5 special-container-right"
+          >
             <div class="container d-flex computer-img">
               <img
                 width="50%"
@@ -638,7 +690,7 @@
       <!-- Pricing section -->
       <section class="pricing-container container-fluid my-5 py-5">
         <h2 class="text-center">Our Plans</h2>
-        <p class="text-center">Choose the right SEO for you</p>
+        <p class="text-center para-color1">Choose the right SEO for you</p>
         <div class="row row-cols-3 mt-5 g-lg-5 justify-content-center g-4">
           <div class="col-12 col-md-6 col-lg-3">
             <div
@@ -654,7 +706,7 @@
               <div
                 class="card-body d-flex flex-column justify-content-center align-items-center"
               >
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   408GB Bandwidth <br />
                   Business & Finance Analysing <br />
                   24 Hour Support <br />
@@ -666,25 +718,25 @@
           </div>
           <div class="col-12 col-md-6 col-lg-3">
             <div
-              class="card py-5 d-flex border-0 special-card translate-card"
+              class="card py-5 d-flex border-0 translate-card"
               style="width: 18rem"
             >
               <div
                 class="card-top gap-2 d-flex flex-column justify-content-center align-items-center justify-content-lg-start"
               >
-                <p class="text-white">Beginner</p>
+                <p class="font-special-color">Beginner</p>
                 <h3>66/month</h3>
               </div>
               <div
                 class="card-body d-flex flex-column justify-content-center align-items-center"
               >
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   408GB Bandwidth <br />
                   Business & Finance Analysing <br />
                   24 Hour Support <br />
                   Customer Management
                 </p>
-                <button class="btn yellow-btn">Get Started</button>
+                <button class="btn lets-talk-btn">Get Started</button>
               </div>
             </div>
           </div>
@@ -702,7 +754,7 @@
               <div
                 class="card-body d-flex flex-column justify-content-center align-items-center"
               >
-                <p class="card-text text-center">
+                <p class="card-text text-center para-color2">
                   408GB Bandwidth <br />
                   Business & Finance Analysing <br />
                   24 Hour Support <br />
@@ -719,12 +771,14 @@
         <h2 class="text-center">
           Our Expert Team <span class="font-special-color">Members</span>
         </h2>
-        <p class="text-center">
+        <p class="text-center para-color1">
           It is a long established fact that a reader will be distracted by the
           readable content .It is a long established fact that a reader
         </p>
         <div class="row row-cols-4 mt-5 g-lg-5 justify-content-center g-4">
-          <div class="col-12 col-md-6 col-lg-3">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex justify-content-center my-4"
+          >
             <div
               class="card py-4 d-flex border border-1 border-black gap-3 translate-card"
               style="width: 18rem"
@@ -772,7 +826,9 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex justify-content-center my-4"
+          >
             <div
               class="card py-4 d-flex border border-1 border-black gap-3 translate-card"
               style="width: 18rem"
@@ -820,7 +876,9 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex justify-content-center my-4"
+          >
             <div
               class="card py-4 d-flex border border-1 border-black gap-3 translate-card"
               style="width: 18rem"
@@ -868,7 +926,9 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-3">
+          <div
+            class="col-12 col-md-6 col-lg-3 d-flex justify-content-center my-4"
+          >
             <div
               class="card py-4 d-flex border border-1 border-black gap-3 translate-card"
               style="width: 18rem"
@@ -920,15 +980,197 @@
       </section>
       <!-- Feedback section -->
       <section class="feedback-container container my-5 py-5">
-        <h2 class="text-center">
-          Our clients say
-        </h2>
-        <p class="text-center">
-          It is a long established fact that a reader will be distracted by the readable content .It is a 
+        <h2 class="text-center">Our clients say</h2>
+        <p class="text-center para-color1">
+          It is a long established fact that a reader will be distracted by the
+          readable content .It is a
         </p>
-        
+        <div class="container-fluid feedback-row-items">
+          <div class="d-flex justify-content-center my-4 feedback-row-item">
+            <div
+              class="card py-4 d-flex border border-1 border-black gap-3"
+              style="width: 350px"
+            >
+              <div
+                class="card-top px-4 d-flex justify-content-center align-items-center"
+              >
+                <p class="text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content .It is a long established fact that a
+                  reader
+                </p>
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <img
+                  height="45px"
+                  width="45px"
+                  src="./assets/images/experticon1.png"
+                  alt=""
+                />
+                <h5 class="card-title">Muriel Whee</h5>
+                <p class="card-text text-center">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-4 feedback-row-item">
+            <div
+              class="card py-4 d-flex border border-1 border-black gap-3"
+              style="width: 350px"
+            >
+              <div
+                class="card-top px-4 d-flex justify-content-center align-items-center"
+              >
+                <p class="text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content .It is a long established fact that a
+                  reader
+                </p>
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <img
+                  height="45px"
+                  width="45px"
+                  src="./assets/images/experticon1.png"
+                  alt=""
+                />
+                <h5 class="card-title">Muriel Whee</h5>
+                <p class="card-text text-center">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-4 feedback-row-item">
+            <div
+              class="card py-4 d-flex border border-1 border-black gap-3"
+              style="width: 350px"
+            >
+              <div
+                class="card-top px-4 d-flex justify-content-center align-items-center"
+              >
+                <p class="text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content .It is a long established fact that a
+                  reader
+                </p>
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <img
+                  height="45px"
+                  width="45px"
+                  src="./assets/images/experticon1.png"
+                  alt=""
+                />
+                <h5 class="card-title">Muriel Whee</h5>
+                <p class="card-text text-center">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-4 feedback-row-item">
+            <div
+              class="card py-4 d-flex border border-1 border-black gap-3"
+              style="width: 350px"
+            >
+              <div
+                class="card-top px-4 d-flex justify-content-center align-items-center"
+              >
+                <p class="text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content .It is a long established fact that a
+                  reader
+                </p>
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <img
+                  height="45px"
+                  width="45px"
+                  src="./assets/images/experticon1.png"
+                  alt=""
+                />
+                <h5 class="card-title">Muriel Whee</h5>
+                <p class="card-text text-center">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center my-4 feedback-row-item">
+            <div
+              class="card py-4 d-flex border border-1 border-black gap-3 translate-card"
+              style="width: 350px"
+            >
+              <div
+                class="card-top px-4 d-flex justify-content-center align-items-center"
+              >
+                <p class="text-center text-lg-start para-color2">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content .It is a long established fact that a
+                  reader
+                </p>
+              </div>
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <img
+                  height="45px"
+                  width="45px"
+                  src="./assets/images/experticon1.png"
+                  alt=""
+                />
+                <h5 class="card-title">Muriel Whee</h5>
+                <p class="card-text text-center">Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Subscribe submit section -->
+      <section
+        class="subsribe-container container my-5 py-5 d-flex flex-column align-items-lg-center"
+      >
+        <h2 class="text-center text-lg-start">
+          Subscribe & find the perfect Cosmetics
+        </h2>
+        <p class="text-center text-lg-start para-color2">
+          Enter your email and get updated new products & news
+        </p>
+        <div class="button-box d-flex gap-2 flex-column flex-lg-row">
+          <input class="" type="text" placeholder="Name" />
+          <input class="" type="text" placeholder="Email Address" />
+          <button class="submit-btn btn mx-lg-2" type="submit">
+            Subscribe
+          </button>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="px-4">
+      <section class="footer-top-section d-flex flex-column">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/images/nuvosa.svg"
+            alt="Logo"
+            width="150"
+            height="60"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <ul class="d-flex flex-column px-0">
+          <li class="list-unstyled">Overview</li>
+          <li class="list-unstyled">Pricing</li>
+          <li class="list-unstyled">Careers</li>
+          <li class="list-unstyled">Help</li>
+          <li class="list-unstyled">Privacy</li>
+        </ul>
+      </section>
+      <section class="footer-end-section d-flex flex-column">
+        <p class="text-center text-lg-start para-color2">
+          Copyright © 2023 nuvosa, All rights reserved.
+        </p>
+      </section>
+    </footer>
   </body>
 </html>

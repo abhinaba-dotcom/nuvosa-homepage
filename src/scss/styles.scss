@@ -1,257 +1,74 @@
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
-// @use "./mixins/mixins" as m;
-// @use "./variables/variables" as v;
-$base-padding-left-right: 80px;
-$base-padding-top-bottom: 25px;
-$button-primary-color: #fad725;
-header {
-  .navbar {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: transparent;
-  }
-  nav {
-    .nav__searchform {
-      .submit-btn {
-        border-radius: 4px;
-        background-color: $button-primary-color;
-        outline: none;
-        border: none;
-      }
-      button:nth-child(1) {
-        background-color: transparent;
-        border-radius: 4px;
-        border: 1px solid black;
-      }
-    }
-  }
+.font-special-color {
+  color: #6f77f1;
 }
-.solution {
-  background-color: #fafafa;
-  .solution__container__right {
-    margin-top: 45px;
-    background-image: url("../../../novusa-home-page/src/assets/images/computer-image.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: fit-content;
-    height: 190px;
-    width: 80vw;
-    position: relative;
-    .creative-team-container {
-      position: absolute;
-      left: 85px;
-      bottom: 20px;
-      background-color: white;
-      padding: 15px 40px 15px 12px;
-      border-radius: 4px;
-      img {
-        border-radius: 100%;
-        height: 40px;
-        width: 40px;
-        margin-right: -18px;
-      }
-    }
-  }
+.yellow-btn {
+  background-color: #fad725;
+  border: none;
 }
-.hero,
-.solution {
-  padding: 10px;
-  .hero__container__right {
-    background-image: url("../../../novusa-home-page/src/assets/images/grouped-girl-image.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: fit-content;
-    height: 350px;
-    width: 100vw;
-    position: relative;
-    .creative-team-container {
-      position: absolute;
-      left: 85px;
-      bottom: 20px;
-      background-color: white;
-      padding: 15px 40px 15px 12px;
-      border-radius: 4px;
-      img {
-        border-radius: 100%;
-        height: 40px;
-        width: 40px;
-        margin-right: -18px;
-      }
-    }
-  }
-}
-.hero__container__left__bottom,
-.solution__container__left__bottom {
-  justify-content: flex-start;
-  button {
-    border-radius: 4px;
-    background-color: $button-primary-color;
-    outline: none;
-    border: none;
-    color: black;
-  }
-}
-.management {
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-.management-card {
-  padding: 20px 20px 8px 20px;
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
+.lets-talk-btn {
   border-radius: 4px;
-  a {
-    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.3);
-    width: fit-content;
-    height: fit-content;
-    border-radius: 100%;
-    align-self: flex-end;
-    margin-top: 12px;
-  }
-  .card-top {
-    justify-content: center;
-    img {
-      margin: auto;
-      width: 80px;
-      height: 80px;
-    }
-    h5 {
-      font-size: 25px;
-      font-weight: 400;
-    }
-  }
-  .card-body {
-    p {
-      font-size: 17px;
-      font-weight: 400;
-      color: rgba(130, 130, 130, 1);
-    }
-  }
+  border: 1px solid black;
 }
-.optimising {
-  padding: 10px;
-  .optimising-top {
-    h2 {
-      font-size: 35px;
-      font-weight: 500;
-    }
-    p {
-      font-size: 20px;
-      font-weight: 400;
-      color: rgba(114, 114, 114, 1);
-    }
-  }
-  .optimising-bottom {
-    .optimising-card {
-      padding: 20px 20px 10px 20px;
-      border-radius: 4px;
-      .card-top {
-        margin-bottom: 45px;
-        img {
-          width: 80px;
-          height: 80px;
-        }
-        h5 {
-          color: (33, 37, 40, 1);
-          font-size: 24px;
-          font-weight: 500;
-        }
-        p {
-          font-size: 12px;
-          font-weight: 400;
-          color: rgba(114, 114, 114, 1);
-        }
-      }
-      .card-body {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-      }
-    }
-  }
+.collapse {
+  flex-grow: 0;
 }
-.growth {
-  .row {
-    .col-12 {
-      .card{
-        .card-body{
-          h5{
-            font-size: 22px;
-            font-weight: 500;
+.marketing-container img,
+.optimising-container img,
+.growth-container img,
+.expert-container img {
+  width: 70px;
+}
 
-          }
-          p{
-            font-size: 17px;
-            font-weight: 400;
-            color: rgba(130, 130, 130, 1);
-          }
-          a{
-            color: rgba(111, 119, 241, 1);
-          }
-        }
-      }
-    }
-  }
+.business-container {
+  background-color: #fafafa;
 }
-@media screen and (min-width: 990px) {
-  header {
-    .navbar {
-      padding-left: $base-padding-left-right;
-      padding-right: $base-padding-left-right;
-      .navbar-collapse {
-        flex-grow: 0;
-        display: flex;
-        gap: 4rem;
-      }
-    }
+.choose-us-container,
+.review-container,
+.pricing-container {
+  background-color: #fafafa;
+}
+input {
+  background-color: #f2f2f2;
+  padding: 6px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+.special-card {
+  background-color: #6f77f1;
+  color: white;
+}
+.translate-card {
+  transition: transform 0.3s ease;
+}
+.translate-card:hover {
+  transform: scale(1.2);
+}
+.font-90px{
+  font-size: 90px;
+  font-weight: 700;
+}
+.font-20px{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(114, 114, 114, 1);
+}
+.font-55px{
+  font-size: 55px;
+  font-weight: 500;
+}
+.font-17px{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(114, 114, 114, 1);
+}
+@media screen and (min-width: 992px) {
+  .business-container-left{
+    margin-right: -45px;
   }
-  main {
-    .hero,
-    .solution {
-      padding: 60px 35px;
-      .hero__container__right {
-        height: 500px;
-        .creative-team-container {
-          left: 0;
-        }
-      }
-      .row {
-        gap: 45px;
-        flex-wrap: nowrap;
-        .col-12 {
-          h1 {
-            font-size: 90px;
-            font-weight: 700;
-          }
-          p {
-            font-size: 20px;
-            font-weight: 400;
-            color: rgba(114, 114, 114, 1);
-          }
-          .hero__container__left__bottom {
-            gap: 25px;
-            justify-content: flex-start !important;
-            button {
-              padding: 10px 40px;
-            }
-          }
-        }
-      }
-    }
-    .management-card {
-      .card-top {
-        flex-direction: row;
-      }
-    }
-    .optimising {
-      margin-top: 55px;
-      margin-bottom: 55px;
-      padding: 85px;
-      .optimising-bottom {
-        .optimising-card {
-          width: 280px;
-        }
-      }
-    }
+  .business-container-right{
+    margin-right: -90px;
   }
 }

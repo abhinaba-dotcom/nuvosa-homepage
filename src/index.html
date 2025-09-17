@@ -37,7 +37,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse header-navbar-lists" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse header-navbar-lists"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav mb-2 mb-lg-0 gap-4 mx-5">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -56,14 +59,14 @@
               </li>
             </ul>
             <form class="d-flex gap-2" role="search">
-              <button type="button" class="lets-talk-btn btn">
+              <button type="button" class="lets-talk-btn">
                 Let's Talk
               </button>
               <button
-                class="yellow-btn submit-btn btn btn-outline-success d-flex justify-content-center align-items-center"
+                class="yellow-btn submit-btn btn-outline-success d-flex justify-content-center align-items-center"
                 type="submit"
               >
-                <img height="15px" src="./assets/images/Search.svg" alt="">
+                <img height="15px" src="./assets/images/Search.svg" alt="" />
               </button>
             </form>
           </div>
@@ -79,9 +82,11 @@
           <div
             class="col-12 col-lg-6 order-1 order-lg-0 g-4 hero-container-left"
           >
-            <h1 class="text-center text-lg-start">
+            <h1 class="text-center text-lg-start position-relative">
               Increase your web traffic with our
+              <img width="80px" height="80px" class="position-absolute expert-icon" src="./assets/images/expert.svg" alt="">
             </h1>
+            
             <p
               class="text-center text-lg-start para-color1 para-responsive-size"
             >
@@ -95,7 +100,7 @@
               class="button-box d-flex gap-4 justify-content-between justify-content-lg-start gap-lg-5"
             >
               <button
-                class="submit-btn btn button-1 button-primary1"
+                class="submit-btn button-1 button-primary1 yellow-btn"
                 type="submit"
               >
                 Get Started
@@ -109,20 +114,32 @@
             </div>
           </div>
           <div class="col-12 col-lg-6 order-0 order-lg-1 hero-container-right">
-            <div class="container d-flex">
+            <div class="container d-flex position-relative">
               <img
                 width="80%"
                 class="mx-auto"
                 src="./assets/images/grouped-girl-image.png"
                 alt=""
               />
+              <div class="creative-team-container p-2 position-absolute bottom-0 bg-white rounded-1">
+                <p class="font-size-20px">Our Creative Team</p>
+                <div class="creative-team-inner-container d-flex">
+                  <img width="52px" height="52px" class="left-most" src="./assets/images/creative-team2.svg" alt="">
+                  <img width="52px" height="52px" class="" src="./assets/images/creative-team1.svg" alt="">
+                  <img width="52px" height="52px" class="" src="./assets/images/creative-team3.svg" alt="">
+                  <img width="52px" height="52px" class="" src="./assets/images/creative-team4.svg" alt="">
+                  <img width="52px" height="52px" class="" src="./assets/images/plus-icon.svg" alt="">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Marketing section -->
       <section class="marketing-container container my-5 py-5">
-        <div class="row row-cols-3 gap-2 justify-content-center justify-content-xl-evenly gap-lg-4">
+        <div
+          class="row row-cols-3 gap-2 justify-content-center justify-content-xl-evenly gap-lg-4"
+        >
           <div
             class="col-12 col-lg-3 d-flex justify-content-center align-items-center"
           >
@@ -359,7 +376,7 @@
             </p>
             <div class="button-box d-flex gap-4">
               <button
-                class="submit-btn btn yellow-btn button-1 button-primary1"
+                class="submit-btn yellow-btn button-1 button-primary1"
                 type="submit"
               >
                 Learn More
@@ -497,7 +514,7 @@
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
-                <button class="btn yellow-btn">Learn More</button>
+                <button class="yellow-btn">Learn More</button>
               </div>
             </div>
           </div>
@@ -523,7 +540,7 @@
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
-                <button class="btn yellow-btn">Learn More</button>
+                <button class="yellow-btn">Learn More</button>
               </div>
             </div>
           </div>
@@ -549,7 +566,7 @@
                   It is a long established fact that a reader will be distracted
                   by.It is a long established.
                 </p>
-                <button class="btn yellow-btn">Learn More</button>
+                <button class="yellow-btn">Learn More</button>
               </div>
             </div>
           </div>
@@ -716,7 +733,7 @@
                 <input class="" type="text" placeholder="Email Address" />
               </div>
               <button
-                class="submit-btn btn yellow-btn mx-lg-4 align-self-center px-5"
+                class="submit-btn yellow-btn mx-lg-4 align-self-center px-5"
                 type="submit"
               >
                 Submit

@@ -1,42 +1,88 @@
 // Import all of Bootstrap’s CSS
 @import "bootstrap/scss/bootstrap";
 
+.header-navbar-lists {
+  ul {
+    li {
+      a {
+        font-size: 22px;
+      }
+      a:hover {
+        text-decoration: underline #6f77f1 3px;
+        text-underline-offset: 4px;
+        border-bottom-left-radius: 5px; /* Apply border-radius to the corners */
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+}
 .font-special-color {
   color: #6f77f1;
 }
 .yellow-btn {
   background-color: #fad725;
   border: none;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 14px 28px;
 }
 .lets-talk-btn {
   border-radius: 4px;
   border: 1px solid black;
+  width: fit-content;
+  padding: 14px 28px;
 }
 .collapse {
   flex-grow: 0;
 }
-.marketing-container img,
 .optimising-container img,
 .growth-container img,
-.expert-container img {
-  width: 70px;
+.expert-container .expert-container-top-img {
+  width: 131px;
+}
+.marketing-container img {
+  width: 100px;
+}
+.feedback-card {
+  width: 450px;
+  border-radius: 2px;
+}
+.expert-card {
+  height: fit-content;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+.expert-card:hover,
+.feedback-card:hover {
+  border: none;
+  box-shadow: 5px 5px 5px 6px rgba(240, 238, 238, 0.3);
+}
+.expert-card:hover h5 {
+  color: rgba(111, 119, 241, 1);
 }
 
-.business-container,
-.review-container {
+.business-container {
   background-color: #fafafa;
 }
 .choose-us-container,
-.review-container,
 .pricing-container {
   background-color: #fafafa;
 }
 input {
-  background-color: #f2f2f2;
-  padding: 6px;
+  background-color: rgba(242, 242, 242, 1);
+  padding: 10px;
   outline: none;
   border: none;
-  border-radius: 4px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid rgba(223, 223, 223, 1);
+}
+.website-speed-container {
+  button {
+    border-radius: 2.48px;
+    width: fit-content;
+    padding: 14px 28px;
+  }
 }
 .special-card {
   background-color: #6f77f1;
@@ -106,22 +152,30 @@ input {
   }
 }
 .subsribe-container {
-  background-color: #fafafa;
   .button-box {
     input {
       background-color: white;
+      border-radius: 4px;
+      padding: 15px 28px;
     }
     button {
       background-color: #6f77f1;
       color: white;
+      border-radius: 2.48px;
+      width: fit-content;
+      padding: 14px 28px;
     }
   }
+}
+.w-98 {
+  width: 98%;
 }
 li {
   list-style: none;
 }
 .footer-end-section {
-  p {
+  p,
+  ul li {
     font-size: 14px;
   }
 }
@@ -137,7 +191,27 @@ li {
 .button-primary1 {
   background-color: rgba(250, 215, 37, 1);
 }
+.review-container {
+  width: full;
+  .review-container-inner {
+    width: fit-content;
+    border: 1px solid rgba(225, 225, 225, 1);
+    gap: 20px;
+    padding: 34px 44px;
+    h4 {
+      font-size: 34px;
+      color: rgba(102, 101, 101, 1);
+    }
+    p {
+      color: rgba(111, 111, 111, 1);
+    }
+  }
+}
+
 @media screen and (min-width: 992px) {
+  // .marketing-container img{
+  //   width: 100px;
+  // }
   .special-container-left {
     margin-right: -45px;
   }
@@ -152,6 +226,32 @@ li {
   }
 }
 @media screen and (min-width: 1300px) {
+  .subscribe-container-inner {
+    border-radius: 4px;
+    background-color: rgb(246, 244, 244);
+    width: fit-content;
+    padding: 40px 120px;
+  }
+  .w-responsive-45 {
+    width: 45%;
+  }
+  .w-responsive-40 {
+    width: 40%;
+  }
+  .review-container {
+    .review-container-inner {
+      gap: 38px;
+      padding: 54px 64px;
+      flex-direction: row;
+      h4 {
+        font-size: 55px;
+        color: rgba(102, 101, 101, 1);
+      }
+      p {
+        color: rgba(111, 111, 111, 1);
+      }
+    }
+  }
   .width-75 {
     width: 75%;
   }
@@ -190,6 +290,7 @@ li {
   }
   .pl-15px {
     padding-left: 15px;
+    padding-right: 25px;
   }
   .heading-responsive-size {
     font-size: 55px;
@@ -200,7 +301,7 @@ li {
     font-weight: 400;
   }
   .marketing-card {
-    box-shadow: 5px 5px 6px rgba(179, 177, 177, 0.3);
+    box-shadow: 10px 10px 10px 0px rgba(214, 212, 212, 0.3);
     border: none;
   }
   .hero-container-left {

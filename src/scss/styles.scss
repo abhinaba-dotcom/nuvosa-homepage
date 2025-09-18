@@ -8,7 +8,7 @@ $button-radius-2: 4px;
 $button-special-color: rgba(250, 215, 37, 1);
 $box-shadow-type-1: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 $box-shadow-type-2: 5px 5px 5px 6px rgba(240, 238, 238, 0.3);
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,7 +28,7 @@ li {
       a:hover {
         text-decoration: underline #6f77f1 3px;
         text-underline-offset: 4px;
-        border-bottom-left-radius: 5px; 
+        border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
       }
     }
@@ -55,6 +55,11 @@ li {
 .marketing-container {
   img {
     width: 100px;
+  }
+}
+.optimising-container {
+  .optimising-card {
+    gap: 1.5rem !important;
   }
 }
 .optimising-card {
@@ -163,6 +168,10 @@ li {
 .feedback-card {
   width: 450px;
   border-radius: 2px;
+  background-image: url("../../src/assets/images/quotation.jpg");
+  background-repeat: no-repeat;
+  background-position: 14px 15px;
+  background-size: 100px auto;
 }
 .feedback-row-items {
   display: flex;
@@ -191,7 +200,7 @@ li {
   }
 }
 .subsribe-container {
-      background-color: rgb(246, 244, 244);
+  background-color: rgb(246, 244, 244);
   .button-box {
     input {
       background-color: white;
@@ -328,7 +337,42 @@ li {
   .optimising-container {
     padding-left: 120px;
     padding-right: 120px;
+    .optimising-card {
+      gap: 3rem !important;
+      padding-top: 25px !important;
+      .card-top {
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+    .optimising-card1 {
+      background-image: url("../../src/assets/images/one.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px -40px; /* Centers the image */
+      background-size: contain;
+    }
+    .optimising-card2 {
+      background-image: url("../../src/assets/images/two.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 85px auto;
+    }
+    .optimising-card3 {
+      background-image: url("../../src/assets/images/three.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 85px auto;
+    }
+    .optimising-card4 {
+      background-image: url("../../src/assets/images/four.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 95px auto;
+    }
   }
+
   .hero-container {
     .hero-container-left {
       display: flex;
@@ -363,7 +407,8 @@ li {
       border: none;
     }
   }
-  .subsribe-container{
+
+  .subsribe-container {
     background-color: white;
     .subscribe-container-inner {
       border-radius: 4px;

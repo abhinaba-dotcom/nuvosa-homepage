@@ -47,10 +47,10 @@ body{
     width: 45px !important;
   }
 }
-.creative-team-container {
+.hero-container__creative-team-container {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   right: 45px;
-  .creative-team-inner-container {
+  .creative-team-container__inner {
     .left-most {
       margin-left: 4px;
     }
@@ -123,16 +123,16 @@ body{
   color: $base-color-1;
 }
 .pricing-container {
-  .translate-card {
+  .pricing-card {
     transition: transform 0.3s ease;
     width: 18rem;
   }
-  .translate-card:hover {
+  .pricing-card:hover {
     transform: scale(1.2);
     background-color: #6f77f1;
     color: $base-color-1;
   }
-  .translate-card:hover button {
+  .pricing-card:hover button {
     background-color: #fad725;
     color: $base-color-1;
     border: none;
@@ -180,13 +180,13 @@ body{
   background-position: 14px 15px;
   background-size: 100px auto;
 }
-.feedback-row-items {
+.feedback-container-row-items {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 12px;
   overflow-x: auto;
-  .feedback-row-item {
+  .feedback-container-row-item {
     float: 0 0 auto;
   }
 }
@@ -290,7 +290,7 @@ body{
     }
   }
   .hero-container {
-    .creative-team-container {
+    .hero-container__creative-team-container {
       right: 245px;
     }
     .hero-container-left {
@@ -301,10 +301,10 @@ body{
     }
   }
   .business-container {
-    .special-container-left {
+    .padded-container-left {
       margin-right: -45px;
     }
-    .special-container-right {
+    .padded-container-right {
       margin-right: -90px;
     }
   }
@@ -390,7 +390,7 @@ body{
       font-size: 90px;
       font-weight: 700;
     }
-    .creative-team-container {
+    .hero-container__creative-team-container {
       right: 400px;
     }
   }
@@ -426,7 +426,7 @@ body{
       border-radius: 4px;
       background-color: rgb(246, 244, 244);
       width: fit-content;
-      padding: 20px 60px;
+      padding: 40px 60px;
     }
   }
   .w-responsive-45 {
@@ -483,7 +483,7 @@ body{
     font-size: 20px;
     font-weight: 400;
   }
-  .take-a-tour {
+  .take-a-tour-btn {
     height: 65px;
   }
   .button-1 {
@@ -512,12 +512,12 @@ body{
     padding-right: 178px !important;
   }
   .hero-container {
-    .creative-team-container {
+    .hero-container__creative-team-container {
       right: 600px;
     }
   }
   .pricing-container {
-    .translate-card {
+    .pricing-card {
       width: 100%;
     }
   }

@@ -420,7 +420,7 @@ body {
     background-color: v.$base-color-1;
     .subscribe-container-inner {
       border-radius:v.$button-radius-2;
-      background-color: rgb(246, 244, 244);
+      background-color: rgba(250, 250, 250, 1);
       width: fit-content;
       padding: 40px 60px;
     }
@@ -473,6 +473,10 @@ body {
   }
   .heading-responsive-size {
     font-size: 55px;
+    font-weight: 500;
+  }
+  .heading-responsive-size-50px {
+    font-size: 50px;
     font-weight: 500;
   }
   .para-responsive-size {

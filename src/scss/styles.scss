@@ -387,6 +387,11 @@ li {
       right: 400px;
     }
   }
+  .business-container {
+    background-image: url("../../src/assets/images/Group\ 676.png");
+    background-repeat: no-repeat; /* Optional: control repetition */
+    background-size: cover;
+  }
   .review-container {
     .review-container-inner {
       gap: 38px;

@@ -3,3 +3,8 @@
   width: fit-content;
   padding: 14px 28px;
 }
+@mixin base-styling(){
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -3,9 +3,7 @@
 @use "./variables/variables" as v;
 @import "bootstrap/scss/bootstrap";
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @include m.base-styling();
 }
 @font-face {
   font-family: "Poppins"; /* Choose a name for your font */

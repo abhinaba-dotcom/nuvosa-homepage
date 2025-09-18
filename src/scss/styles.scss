@@ -156,7 +156,7 @@ body {
 .seo-card:hover {
   transform: scale(1.2);
   background-color: v.$base-color-1;
-  box-shadow: v.$box-shadow-type-2;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 .choose-us-card:hover,
 .seo-card:hover {
@@ -247,6 +247,9 @@ body {
   width: fit-content;
   padding: 14px 22px;
 }
+.yellow-btn:hover {
+  background-color: #efcd24;
+}
 .lets-talk-btn {
   border-radius: v.$button-radius-2;
   border: 1px solid black;
@@ -285,6 +288,7 @@ body {
 .para-color2 {
   color: #828282;
 }
+
 @media screen and (min-width: 750px) {
   .optimising-container {
     .row {
@@ -455,7 +459,7 @@ body {
       font-weight: 700;
     }
     .hero-container__creative-team-container {
-      right: 400px;
+      right: 380px;
     }
   }
   .business-container {
@@ -479,7 +483,7 @@ body {
   }
   .marketing-container {
     .marketing-card {
-      box-shadow: 10px 10px 10px 0px rgba(214, 212, 212, 0.3);
+      box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
       border: none;
     }
   }
@@ -589,11 +593,75 @@ body {
       width: 100%;
     }
   }
+
   .footer-end-section {
     padding-left: 183px;
     padding-right: 183px;
   }
   .footer-hr {
     width: 88% !important;
+  }
+  .p-17px {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+  }
+  .marketing-card {
+    h5 {
+      font-size: 38px;
+    }
+    .card-top {
+      gap: 38px !important;
+    }
+    img {
+      width: 129px;
+      height: 129px;
+    }
+    .marketing-card-bottom-arrow {
+      display: block;
+      height: 24px;
+      width: 24px;
+    }
+  }
+  .optimising-container {
+    h2 {
+      padding-bottom: 37px;
+    }
+    .optimising-card {
+      width: 400px !important;
+      height: 472px;
+      padding: 64px 34px 92px 34px !important;
+      .card-top {
+        img {
+          width: 74px;
+          height: 76px;
+        }
+      }
+      .card-body {
+        .card-title {
+          font-size: 24px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 17px;
+          font-weight: 400;
+        }
+      }
+    }
+    .optimising-card1 {
+      background-position: 164px -59px;
+    }
+    .optimising-card2,
+    .optimising-card3,
+    .optimising-card4 {
+      background-position: 186px 56px;
+      background-size: 122px auto;
+    }
+  }
+  .business-container {
+    .row {
+      padding-left: 333px;
+      padding-right: 333px;
+    }
   }
 }

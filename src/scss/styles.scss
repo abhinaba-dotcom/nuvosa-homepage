@@ -13,13 +13,19 @@ $box-shadow-type-2: 5px 5px 5px 6px rgba(240, 238, 238, 0.3);
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Poppins"; /* Choose a name for your font */
+  src: url("../assets/fonts/PoppinsFont/Poppins/Poppins-Black.ttf") format("ttf");
+  font-weight: normal; /* Or specify the weight if your font has multiple */
+  font-style: normal; /* Or specify 'italic' if applicable */
+}
 li {
   list-style: none;
 }
 .collapse {
   flex-grow: 0;
 }
-body{
+body {
   padding-left: 3px !important;
   padding-right: 3px !important;
   overflow-x: hidden;
@@ -525,7 +531,7 @@ body{
     padding-left: 183px;
     padding-right: 183px;
   }
-  .footer-hr{
+  .footer-hr {
     width: 88% !important;
   }
 }

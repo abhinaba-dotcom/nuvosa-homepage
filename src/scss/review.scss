@@ -1,0 +1,47 @@
+.review-container {
+  width: full;
+  .review-container-inner {
+    width: fit-content;
+    border: 1px solid rgba(225, 225, 225, 1);
+    gap: 20px;
+    padding: 34px 44px;
+    h4 {
+      font-size: 34px;
+      color: rgba(102, 101, 101, 1);
+    }
+    p {
+      color: rgba(111, 111, 111, 1);
+    }
+  }
+}
+@media screen and (min-width: 1300px) {
+  .review-container {
+    .review-container-inner {
+      gap: 38px;
+      padding: 54px 64px;
+      flex-direction: row;
+      h4 {
+        font-size: 55px;
+        color: rgba(102, 101, 101, 1);
+      }
+      p {
+        color: rgba(111, 111, 111, 1);
+      }
+    }
+  }
+}
+@media screen and (width>=1800px) {
+  .review-container {
+    .review-container-inner {
+      h4 {
+        font-size: 73px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+      }
+    }
+  }
+}

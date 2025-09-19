@@ -1,0 +1,21 @@
+* {
+  @include m.base-styling();
+}
+@font-face {
+  font-family: "Poppins"; /* Choose a name for your font */
+  src: url("../assets/fonts/PoppinsFont/Poppins/Poppins-Black.ttf")
+    format("ttf");
+  font-weight: normal; /* Or specify the weight if your font has multiple */
+  font-style: normal; /* Or specify 'italic' if applicable */
+}
+li {
+  list-style: none;
+}
+.collapse {
+  flex-grow: 0;
+}
+body {
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  overflow-x: unset;
+}

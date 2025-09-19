@@ -4,6 +4,7 @@
 @import "bootstrap/scss/bootstrap";
 @import './hero.scss';
 @import './header.scss';
+@import './marketing.scss';
 * {
   @include m.base-styling();
 }
@@ -24,11 +25,6 @@ body {
   padding-left: 3px !important;
   padding-right: 3px !important;
   overflow-x: unset;
-}
-.marketing-container {
-  img {
-    width: 100px;
-  }
 }
 .growth-container {
   .row {
@@ -335,22 +331,6 @@ body {
   }
 }
 @media screen and (min-width: 1300px) {
-  .marketing-container {
-    .row {
-      .col-12 {
-        width: 370px;
-      }
-    }
-    .marketing-card {
-      padding-bottom: 0px !important;
-      .card-top {
-        gap: 24px !important;
-      }
-      .card-body {
-        gap: 0px !important;
-      }
-    }
-  }
   h1 {
     font-size: 70px !important;
   }
@@ -369,12 +349,6 @@ body {
   }
   body {
     background-image: url("../../src/assets/images/base-bg.png");
-  }
- 
-  
-  .marketing-container {
-    padding-left: 100px;
-    padding-right: 100px;
   }
   .optimising-card {
     border-left: none;
@@ -447,13 +421,6 @@ body {
       }
     }
   }
-  .marketing-container {
-    .marketing-card {
-      box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
-      border: none;
-    }
-  }
-
   .subsribe-container {
     background-color: v.$base-color-1;
     .subscribe-container-inner {
@@ -604,23 +571,7 @@ body {
     font-weight: 400;
     line-height: 27px;
   }
-  .marketing-card {
-    h5 {
-      font-size: 38px;
-    }
-    .card-top {
-      gap: 38px !important;
-    }
-    img {
-      width: 129px;
-      height: 129px;
-    }
-    .marketing-card-bottom-arrow {
-      display: block;
-      height: 24px;
-      width: 24px;
-    }
-  }
+
   .review-container {
     .review-container-inner {
       h4 {
@@ -679,27 +630,5 @@ body {
     width: 794px !important;
     height: 556px !important;
   }
-  .marketing-container {
-    .row {
-      .col-12 {
-        .card {
-          padding: 30px 18px 17px 25px !important;
-          .card-top {
-            gap: 30px !important;
-            padding: 0px;
-          }
-          .card-body {
-            p {
-              padding-right: 24px;
-            }
-            padding-right: 0px;
-            padding-left: 0px;
-          }
-        }
-        align-items: start !important;
-        width: 513px;
-        height: 334px;
-      }
-    }
-  }
+
 }

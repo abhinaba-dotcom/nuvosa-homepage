@@ -1,0 +1,12 @@
+@use "./variables/variables" as v;
+@media screen and (min-width: 1300px) {
+  .subsribe-container {
+    background-color: v.$base-color-1;
+    .subscribe-container-inner {
+      border-radius: v.$button-radius-2;
+      background-color: rgba(250, 250, 250, 1);
+      width: fit-content;
+      padding: 40px 60px;
+    }
+  }
+}

@@ -142,7 +142,7 @@ body {
   }
   .pricing-card:hover button {
     background-color: #fad725;
-    color: v.$base-color-1;
+    color: black;
     border: none;
   }
 }
@@ -166,11 +166,15 @@ body {
   height: fit-content;
   border-radius: 2px;
   transition: transform 0.3s ease;
+  border: 1px solid rgba(239, 239, 239, 1);
 }
-.expert-card:hover,
+.expert-card:hover {
+  border: none;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
 .feedback-card:hover {
   border: none;
-  box-shadow: v.$box-shadow-type-2;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
 .expert-card:hover h5 {
   color: rgba(111, 119, 241, 1);
@@ -228,6 +232,9 @@ body {
       border-radius: v.$button-radius-1;
       width: fit-content;
       padding: 14px 28px;
+    }
+    button:hover{
+      background-color: #5e68eb;
     }
   }
 }
@@ -356,10 +363,19 @@ body {
     .website-speed-container__input1 {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
+      padding: 13px 23px;
+    }
+    .website-speed-container__input1::placeholder,
+    .website-speed-container__input2::placeholder {
+      color: #b6b6b6;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 27px;
     }
     .website-speed-container__input2 {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
+      padding: 13px 23px;
     }
   }
 }
@@ -564,6 +580,27 @@ body {
   }
 }
 @media screen and (width>=1800px) {
+  .font-size-22px {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+  .font-size-49px {
+    font-size: 49px;
+    line-height: 59px;
+    font-weight: 500;
+  }
+  .font-size-23px {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+  }
+  .font-size-73px {
+    font-size: 73px;
+    font-weight: 600;
+    line-height: 57px;
+  }
   .optimising-container {
     padding-left: 172px;
   }
@@ -590,7 +627,7 @@ body {
   }
   .pricing-container {
     .pricing-card {
-      width: 100%;
+      width: 75%;
     }
   }
 
@@ -621,6 +658,19 @@ body {
       display: block;
       height: 24px;
       width: 24px;
+    }
+  }
+  .review-container {
+    .review-container-inner {
+      h4 {
+        font-size: 73px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+      }
     }
   }
   .optimising-container {
@@ -663,5 +713,9 @@ body {
       padding-left: 333px;
       padding-right: 333px;
     }
+  }
+  .website-speed-container-img {
+    width: 794px !important;
+    height: 556px !important;
   }
 }

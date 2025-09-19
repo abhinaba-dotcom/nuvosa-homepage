@@ -7,6 +7,7 @@
 @import './marketing.scss';
 @import './optimising.scss';
 @import './business.scss';
+@import './growth.scss';
 * {
   @include m.base-styling();
 }
@@ -27,20 +28,6 @@ body {
   padding-left: 3px !important;
   padding-right: 3px !important;
   overflow-x: unset;
-}
-.growth-container {
-  .row {
-    gap: 8px;
-  }
-  .growth-card {
-    gap: 1.5rem !important;
-    .card-top {
-      img {
-        width: 65px;
-        height: 65px;
-      }
-    }
-  }
 }
 .choose-us-container,
 .pricing-container {
@@ -96,12 +83,10 @@ body {
     border: none;
   }
 }
-.growth-card,
 .choose-us-card,
 .seo-card {
   transition: transform 0.3s ease;
 }
-.growth-card:hover,
 .choose-us-card:hover,
 .seo-card:hover {
   transform: scale(1.2);
@@ -129,7 +114,6 @@ body {
 .expert-card:hover h5 {
   color: rgba(111, 119, 241, 1);
 }
-.growth-container img,
 .expert-container .expert-container-top-img {
   width: 131px;
 }
@@ -252,21 +236,6 @@ body {
 }
 .para-color2 {
   color: #828282;
-}
-@media screen and (min-width: 750px) {
-  .growth-container {
-    .row {
-      gap: 8px;
-    }
-    .growth-card {
-      .card-top {
-        img {
-          width: unset;
-          height: unset;
-        }
-      }
-    }
-  }
 }
 @media screen and (min-width: 992px) {
   .website-speed-container {
@@ -438,12 +407,7 @@ body {
     padding-top: 98px;
     padding-bottom: 98px;
   }
-  .growth-container {
-    img {
-      width: 71px;
-      height: 71px;
-    }
-  }
+
   .px-178px {
     padding-left: 178px !important;
     padding-right: 178px !important;

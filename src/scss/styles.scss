@@ -43,12 +43,13 @@ body {
   .expert-icon {
     margin-left: v.$button-radius-2;
     bottom: -24px;
-    width: 45px !important;
+    width: 55px !important;
   }
 }
 .hero-container__creative-team-container {
   box-shadow: v.$box-shadow-type-1;
   right: 45px;
+  border-radius: 2px !important;
   .creative-team-container__inner {
     .left-most {
       margin-left: v.$button-radius-2;
@@ -233,7 +234,7 @@ body {
       width: fit-content;
       padding: 14px 28px;
     }
-    button:hover{
+    button:hover {
       background-color: #5e68eb;
     }
   }
@@ -296,7 +297,17 @@ body {
   color: #828282;
 }
 
+@media screen and (max-width: 400px) {
+  .hero-container__creative-team-container {
+    display: none;
+  }
+}
 @media screen and (min-width: 750px) {
+  .hero-container {
+  .expert-icon {
+    width: 75px !important;
+  }
+}
   .optimising-container {
     .row {
       gap: 4px;
@@ -380,6 +391,38 @@ body {
   }
 }
 @media screen and (min-width: 1300px) {
+  .marketing-container {
+    .row {
+      .col-12 {
+        width: 370px;
+      }
+    }
+    .marketing-card {
+      padding-bottom: 0px !important;
+      .card-top {
+        gap: 24px !important;
+      }
+      .card-body {
+        gap: 0px !important;
+      }
+    }
+  }
+  h1 {
+    font-size: 70px !important;
+  }
+  .optimising-container,
+  .business-container,
+  .choose-us-container,
+  .seo-container,
+  .website-speed-container,
+  .pricing-container,
+  .expert-container,
+  .feedback-container,
+  .subsribe-container {
+    h2 {
+      font-size: 40px !important;
+    }
+  }
   body {
     background-image: url("../../src/assets/images/base-bg.png");
   }
@@ -717,5 +760,28 @@ body {
   .website-speed-container-img {
     width: 794px !important;
     height: 556px !important;
+  }
+  .marketing-container {
+    .row {
+      .col-12 {
+        .card {
+          padding: 30px 18px 17px 25px !important;
+          .card-top {
+            gap: 30px !important;
+            padding: 0px;
+          }
+          .card-body {
+            p {
+              padding-right: 24px;
+            }
+            padding-right: 0px;
+            padding-left: 0px;
+          }
+        }
+        align-items: start !important;
+        width: 513px;
+        height: 334px;
+      }
+    }
   }
 }

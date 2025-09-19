@@ -3,6 +3,7 @@
 @use "./variables/variables" as v;
 @import "bootstrap/scss/bootstrap";
 @import './hero.scss';
+@import './header.scss';
 * {
   @include m.base-styling();
 }
@@ -23,22 +24,6 @@ body {
   padding-left: 3px !important;
   padding-right: 3px !important;
   overflow-x: unset;
-}
-
-.header-navbar-lists {
-  ul {
-    li {
-      a {
-        font-size: 22px;
-      }
-      a:hover {
-        text-decoration: underline v.$special-color-1 3px;
-        text-underline-offset: v.$button-radius-2;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-      }
-    }
-  }
 }
 .marketing-container {
   img {
@@ -316,15 +301,6 @@ body {
   }
 }
 @media screen and (min-width: 992px) {
-  .header-navbar-lists {
-    ul {
-      li {
-        a {
-          font-size: 14px;
-        }
-      }
-    }
-  }
   .business-container {
     .padded-container-left {
       margin-right: -45px;
@@ -394,21 +370,7 @@ body {
   body {
     background-image: url("../../src/assets/images/base-bg.png");
   }
-  .navbar {
-    .header-navbar-lists {
-      ul {
-        li {
-          a {
-            font-size: 22px;
-          }
-        }
-      }
-    }
-    .container-fluid {
-      padding-left: 120px;
-      padding-right: 120px;
-    }
-  }
+ 
   
   .marketing-container {
     padding-left: 100px;

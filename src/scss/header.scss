@@ -1,0 +1,43 @@
+.header-navbar-lists {
+  ul {
+    li {
+      a {
+        font-size: 22px;
+      }
+      a:hover {
+        text-decoration: underline v.$special-color-1 3px;
+        text-underline-offset: v.$button-radius-2;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .header-navbar-lists {
+    ul {
+      li {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1300px) {
+ .navbar {
+       .header-navbar-lists {
+         ul {
+           li {
+             a {
+               font-size: 22px;
+             }
+           }
+         }
+       }
+       .container-fluid {
+         padding-left: 120px;
+         padding-right: 120px;
+       }
+     }
+}

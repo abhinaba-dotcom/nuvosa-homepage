@@ -1,0 +1,28 @@
+.choose-us-container{
+  background-color: v.$base-color-2;
+}
+.choose-us-card{
+  transition: transform 0.3s ease;
+}
+.choose-us-card:hover{
+  transform: scale(1.2);
+  background-color: v.$base-color-1;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+.choose-us-card:hover{
+  transform: scale(1.1);
+}
+@media screen and (min-width: 1300px) {
+  .choose-us-container{
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+}
+@media screen and (width>=1800px) {
+  .choose-us-container{
+    h2 {
+      font-size: 55px !important;
+    }
+  }
+}

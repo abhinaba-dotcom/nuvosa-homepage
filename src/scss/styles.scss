@@ -8,6 +8,7 @@
 @import './optimising.scss';
 @import './business.scss';
 @import './growth.scss';
+@import './choose-us.scss';
 * {
   @include m.base-styling();
 }
@@ -29,7 +30,6 @@ body {
   padding-right: 3px !important;
   overflow-x: unset;
 }
-.choose-us-container,
 .pricing-container {
   background-color: v.$base-color-2;
 }
@@ -83,17 +83,14 @@ body {
     border: none;
   }
 }
-.choose-us-card,
 .seo-card {
   transition: transform 0.3s ease;
 }
-.choose-us-card:hover,
 .seo-card:hover {
   transform: scale(1.2);
   background-color: v.$base-color-1;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
-.choose-us-card:hover,
 .seo-card:hover {
   transform: scale(1.1);
 }
@@ -262,7 +259,6 @@ body {
   h1 {
     font-size: 70px !important;
   }
-  .choose-us-container,
   .seo-container,
   .website-speed-container,
   .pricing-container,

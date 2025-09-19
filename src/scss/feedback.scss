@@ -1,0 +1,36 @@
+.feedback-card:hover {
+  border: none;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+.feedback-card {
+  width: 450px;
+  border-radius: 2px;
+  background-image: url("../../src/assets/images/quotation.jpg");
+  background-repeat: no-repeat;
+  background-position: 14px 15px;
+  background-size: 100px auto;
+}
+.feedback-container-row-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 12px;
+  overflow-x: auto;
+  .feedback-container-row-item {
+    float: 0 0 auto;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .feedback-container{
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+}
+@media screen and (width>=1800px) {
+  .feedback-container{
+    h2 {
+      font-size: 55px !important;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.business-container {
+  background-color: v.$base-color-2;
+}
+@media screen and (min-width: 992px) {
+  .business-container {
+    .padded-container-left {
+      margin-right: -45px;
+    }
+    .padded-container-right {
+      margin-right: -90px;
+    }
+  }
+}
+@media screen and (min-width: 1300px) {
+  .business-container {
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+  .business-container {
+    background-image: url("../../src/assets/images/Group\ 676.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (width>=1800px) {
+  .business-container {
+    h2 {
+      font-size: 55px !important;
+    }
+  }
+  .business-container {
+    .row {
+      padding-left: 333px;
+      padding-right: 333px;
+    }
+  }
+}

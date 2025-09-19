@@ -19,3 +19,16 @@ body {
   padding-right: 3px !important;
   overflow-x: unset;
 }
+@media screen and (min-width: 1300px) {
+  h1 {
+    font-size: 70px !important;
+  }
+  body {
+    background-image: url("../../src/assets/images/base-bg.png");
+  }
+}
+@media screen and (width>=1800px) {
+  h1 {
+    font-size: 90px !important;
+  }
+}

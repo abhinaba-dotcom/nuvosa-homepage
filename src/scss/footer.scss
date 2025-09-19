@@ -1,0 +1,16 @@
+.footer-end-section {
+  p,
+  ul li {
+    font-size: 14px;
+  }
+}
+
+@media screen and (width>=1800px) {
+  .footer-end-section {
+    padding-left: 183px;
+    padding-right: 183px;
+  }
+  .footer-hr {
+    width: 88% !important;
+  }
+}

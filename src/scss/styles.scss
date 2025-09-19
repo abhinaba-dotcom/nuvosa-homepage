@@ -11,6 +11,7 @@
 @import "./choose-us.scss";
 @import "./seo.scss";
 @import "./website-speed.scss";
+@import "./pricing.scss";
 * {
   @include m.base-styling();
 }
@@ -32,9 +33,7 @@ body {
   padding-right: 3px !important;
   overflow-x: unset;
 }
-.pricing-container {
-  background-color: v.$base-color-2;
-}
+
 .review-container {
   width: full;
   .review-container-inner {
@@ -51,40 +50,8 @@ body {
     }
   }
 }
-.pricing-container {
-  .row .col-12 {
-    .card {
-      .card-top {
-        p {
-          color: v.$special-color-1;
-        }
-      }
-    }
-  }
-}
 
-.pricing-container .row .col-12 .card:hover .card-body p {
-  color: v.$base-color-1;
-}
-.pricing-container .row .col-12 .card:hover .card-top p {
-  color: v.$base-color-1;
-}
-.pricing-container {
-  .pricing-card {
-    transition: transform 0.3s ease;
-    width: 18rem;
-  }
-  .pricing-card:hover {
-    transform: scale(1.2);
-    background-color: v.$special-color-1;
-    color: v.$base-color-1;
-  }
-  .pricing-card:hover button {
-    background-color: #fad725;
-    color: black;
-    border: none;
-  }
-}
+
 
 .expert-card {
   height: fit-content;
@@ -217,8 +184,6 @@ body {
   h1 {
     font-size: 70px !important;
   }
-  .website-speed-container,
-  .pricing-container,
   .expert-container,
   .feedback-container,
   .subsribe-container {
@@ -322,7 +287,6 @@ body {
   h1 {
     font-size: 90px !important;
   }
-  .pricing-container,
   .expert-container,
   .feedback-container,
   .subsribe-container {
@@ -362,11 +326,7 @@ body {
     padding-left: 178px !important;
     padding-right: 178px !important;
   }
-  .pricing-container {
-    .pricing-card {
-      width: 75%;
-    }
-  }
+  
 
   .footer-end-section {
     padding-left: 183px;

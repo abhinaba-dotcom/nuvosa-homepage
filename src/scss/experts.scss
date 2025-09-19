@@ -1,0 +1,30 @@
+.expert-card {
+  height: fit-content;
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(239, 239, 239, 1);
+}
+.expert-card:hover {
+  border: none;
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+}
+.expert-card:hover h5 {
+  color: rgba(111, 119, 241, 1);
+}
+.expert-container .expert-container-top-img {
+  width: 131px;
+}
+@media screen and (min-width: 1300px) {
+  .expert-container{
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+}
+@media screen and (width>=1800px) {
+  .expert-container{
+    h2 {
+      font-size: 55px !important;
+    }
+  }
+}

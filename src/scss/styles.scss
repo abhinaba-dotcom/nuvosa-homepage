@@ -12,6 +12,7 @@
 @import "./seo.scss";
 @import "./website-speed.scss";
 @import "./pricing.scss";
+@import "./experts.scss";
 * {
   @include m.base-styling();
 }
@@ -50,28 +51,9 @@ body {
     }
   }
 }
-
-
-
-.expert-card {
-  height: fit-content;
-  border-radius: 2px;
-  transition: transform 0.3s ease;
-  border: 1px solid rgba(239, 239, 239, 1);
-}
-.expert-card:hover {
-  border: none;
-  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
-}
 .feedback-card:hover {
   border: none;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
-}
-.expert-card:hover h5 {
-  color: rgba(111, 119, 241, 1);
-}
-.expert-container .expert-container-top-img {
-  width: 131px;
 }
 .feedback-card {
   width: 450px;
@@ -184,7 +166,6 @@ body {
   h1 {
     font-size: 70px !important;
   }
-  .expert-container,
   .feedback-container,
   .subsribe-container {
     h2 {
@@ -287,7 +268,6 @@ body {
   h1 {
     font-size: 90px !important;
   }
-  .expert-container,
   .feedback-container,
   .subsribe-container {
     h2 {

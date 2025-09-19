@@ -5,6 +5,7 @@
 @import './hero.scss';
 @import './header.scss';
 @import './marketing.scss';
+@import './optimising.scss';
 * {
   @include m.base-styling();
 }
@@ -40,20 +41,6 @@ body {
     }
   }
 }
-.optimising-container {
-  .row {
-    gap: 8px;
-  }
-}
-.optimising-card {
-  .card-top {
-    img {
-      width: 45px;
-      height: 45px;
-    }
-  }
-}
-
 .business-container,
 .choose-us-container,
 .pricing-container {
@@ -142,7 +129,6 @@ body {
 .expert-card:hover h5 {
   color: rgba(111, 119, 241, 1);
 }
-.optimising-container img,
 .growth-container img,
 .expert-container .expert-container-top-img {
   width: 131px;
@@ -268,20 +254,6 @@ body {
   color: #828282;
 }
 @media screen and (min-width: 750px) {
-  .optimising-container {
-    .row {
-      gap: 4px;
-    }
-  }
-  .optimising-card {
-    width: fit-content;
-    .card-top {
-      img {
-        width: unset;
-        height: unset;
-      }
-    }
-  }
   .growth-container {
     .row {
       gap: 8px;
@@ -303,11 +275,6 @@ body {
     }
     .padded-container-right {
       margin-right: -90px;
-    }
-  }
-  .optimising-container {
-    .row {
-      gap: 0px;
     }
   }
   .website-speed-container {
@@ -334,7 +301,6 @@ body {
   h1 {
     font-size: 70px !important;
   }
-  .optimising-container,
   .business-container,
   .choose-us-container,
   .seo-container,
@@ -349,58 +315,6 @@ body {
   }
   body {
     background-image: url("../../src/assets/images/base-bg.png");
-  }
-  .optimising-card {
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-    transition: transform 0.3s ease;
-    &:hover {
-      transform: scale(1);
-      box-shadow: v.$box-shadow-type-1;
-      background-color: #fff;
-      border-radius: 0.25rem;
-      border-bottom: 2px solid v.$special-color-1;
-    }
-  }
-  .optimising-container {
-    padding-left: 120px;
-    padding-right: 120px;
-    .optimising-card {
-      gap: 3rem !important;
-      padding-top: 25px !important;
-      .card-top {
-        img {
-          width: 45px;
-          height: 45px;
-        }
-      }
-    }
-    .optimising-card1 {
-      background-image: url("../../src/assets/images/one.jpg");
-      background-repeat: no-repeat;
-      background-position: 120px -40px; /* Centers the image */
-      background-size: contain;
-    }
-    .optimising-card2 {
-      background-image: url("../../src/assets/images/two.jpg");
-      background-repeat: no-repeat;
-      background-position: 120px 17px;
-      background-size: 85px auto;
-    }
-    .optimising-card3 {
-      background-image: url("../../src/assets/images/three.jpg");
-      background-repeat: no-repeat;
-      background-position: 120px 17px;
-      background-size: 85px auto;
-    }
-    .optimising-card4 {
-      background-image: url("../../src/assets/images/four.jpg");
-      background-repeat: no-repeat;
-      background-position: 120px 17px;
-      background-size: 95px auto;
-    }
   }
   .business-container {
     background-image: url("../../src/assets/images/Group\ 676.png");
@@ -500,7 +414,6 @@ body {
   h1 {
     font-size: 90px !important;
   }
-  .optimising-container,
   .business-container,
   .choose-us-container,
   .seo-container,
@@ -533,9 +446,6 @@ body {
     font-size: 73px;
     font-weight: 600;
     line-height: 57px;
-  }
-  .optimising-container {
-    padding-left: 172px;
   }
   .business-container {
     padding-left: 333px;
@@ -583,41 +493,6 @@ body {
         font-weight: 400;
         line-height: 27px;
       }
-    }
-  }
-  .optimising-container {
-    h2 {
-      padding-bottom: 37px;
-    }
-    .optimising-card {
-      width: 400px !important;
-      height: 472px;
-      padding: 64px 34px 92px 34px !important;
-      .card-top {
-        img {
-          width: 74px;
-          height: 76px;
-        }
-      }
-      .card-body {
-        .card-title {
-          font-size: 24px;
-          font-weight: 500;
-        }
-        p {
-          font-size: 17px;
-          font-weight: 400;
-        }
-      }
-    }
-    .optimising-card1 {
-      background-position: 164px -59px;
-    }
-    .optimising-card2,
-    .optimising-card3,
-    .optimising-card4 {
-      background-position: 186px 56px;
-      background-size: 122px auto;
     }
   }
   .business-container {

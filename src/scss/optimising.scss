@@ -1,0 +1,143 @@
+.optimising-container {
+  .row {
+    gap: 8px;
+  }
+}
+.optimising-card {
+  .card-top {
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
+.optimising-container img {
+  width: 131px;
+}
+@media screen and (min-width: 750px) {
+  .optimising-container {
+    .row {
+      gap: 4px;
+    }
+  }
+  .optimising-card {
+    width: fit-content;
+    .card-top {
+      img {
+        width: unset;
+        height: unset;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .optimising-container {
+    .row {
+      gap: 0px;
+    }
+  }
+}
+@media screen and (min-width: 1300px) {
+  .optimising-container {
+    h2 {
+      font-size: 40px !important;
+    }
+  }
+  .optimising-card {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1);
+      box-shadow: v.$box-shadow-type-1;
+      background-color: #fff;
+      border-radius: 0.25rem;
+      border-bottom: 2px solid v.$special-color-1;
+    }
+  }
+  .optimising-container {
+    padding-left: 120px;
+    padding-right: 120px;
+    .optimising-card {
+      gap: 3rem !important;
+      padding-top: 25px !important;
+      .card-top {
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+    }
+    .optimising-card1 {
+      background-image: url("../../src/assets/images/one.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px -40px; /* Centers the image */
+      background-size: contain;
+    }
+    .optimising-card2 {
+      background-image: url("../../src/assets/images/two.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 85px auto;
+    }
+    .optimising-card3 {
+      background-image: url("../../src/assets/images/three.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 85px auto;
+    }
+    .optimising-card4 {
+      background-image: url("../../src/assets/images/four.jpg");
+      background-repeat: no-repeat;
+      background-position: 120px 17px;
+      background-size: 95px auto;
+    }
+  }
+}
+@media screen and (width>=1800px) {
+  .optimising-container {
+    h2 {
+      font-size: 55px !important;
+    }
+  }
+  .optimising-container {
+    padding-left: 172px;
+  }
+  .optimising-container {
+    h2 {
+      padding-bottom: 37px;
+    }
+    .optimising-card {
+      width: 400px !important;
+      height: 472px;
+      padding: 64px 34px 92px 34px !important;
+      .card-top {
+        img {
+          width: 74px;
+          height: 76px;
+        }
+      }
+      .card-body {
+        .card-title {
+          font-size: 24px;
+          font-weight: 500;
+        }
+        p {
+          font-size: 17px;
+          font-weight: 400;
+        }
+      }
+    }
+    .optimising-card1 {
+      background-position: 164px -59px;
+    }
+    .optimising-card2,
+    .optimising-card3,
+    .optimising-card4 {
+      background-position: 186px 56px;
+      background-size: 122px auto;
+    }
+  }
+}

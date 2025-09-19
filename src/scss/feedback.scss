@@ -20,6 +20,20 @@
     float: 0 0 auto;
   }
 }
+.carousel-indicators{
+    bottom: -34px !important;
+}
+.carousel-indicator-btn{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100% !important;
+    background-color: #E9E9E9 !important;
+}
+@media screen and (max-width: 450px){
+    .feedback-card{
+        width: 350px !important;
+    }
+}
 @media screen and (min-width: 1300px) {
   .feedback-container{
     h2 {

@@ -12,6 +12,24 @@
 .choose-us-card:hover{
   transform: scale(1.1);
 }
+@media screen and (width<=450px) {
+   .choose-us-container {
+    .row {
+      margin-top: 0 !important;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .choose-us-container{
+        padding-left: 80px;
+    padding-right: 80px;
+    .row{
+      .col-12{
+        width: 33% !important;
+      }
+    }
+  }
+}
 @media screen and (min-width: 1300px) {
   .choose-us-container{
     h2 {
@@ -23,6 +41,19 @@
   .choose-us-container{
     h2 {
       font-size: 55px !important;
+    }
+    .choose-us-container__para{
+      margin-top: 21px;
+    }
+    .row{
+
+      .col-12{
+        width: fit-content !important;
+      }
+    }
+    .choose-us-card{
+      width: 365px !important;
+      height: 548px !important;
     }
   }
 }

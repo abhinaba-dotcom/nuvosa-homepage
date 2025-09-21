@@ -12,8 +12,18 @@
     @include m.button-base-styling();
   }
 }
+@media screen and (width<=450px) {
+    .website-speed-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    img {
+      display: none;
+    }
+  }
+}
 @media screen and (min-width: 992px) {
   .website-speed-container {
+        padding-left: 100px !important;
     .website-speed-container__input1 {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
@@ -42,8 +52,15 @@
 }
 @media screen and (width>=1800px) {
   .website-speed-container {
+    padding-left: 178px !important;
+    padding-right: 178px !important;
     h2 {
       font-size: 55px !important;
+    }
+    .row{
+      .col-12{
+        gap: 1rem !important;
+      }
     }
   }
   .website-speed-container-img {

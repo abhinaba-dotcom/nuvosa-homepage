@@ -20,6 +20,27 @@
     }
   }
 }
+@media screen and (width<=450px) {
+   .subsribe-container {
+    .subscribe-container-inner {
+      p {
+        font-size: 14px !important;
+      }
+      .button-box {
+        gap: 0.5rem !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 750px) {
+  .subsribe-container{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    .button-box{
+      gap: 0.5rem !important;
+    }
+  }
+}
 @media screen and (min-width: 1300px) {
   .subsribe-container {
     h2 {
@@ -39,8 +60,21 @@
 }
 @media screen and (width>=1800px) {
   .subsribe-container {
+    .subscribe-container-inner{
+
+      padding: 57px 153px !important;
+      .button-box{
+        gap: 30px !important;
+        input{
+          width: 416px !important;
+        }
+      }
+    }
     h2 {
-      font-size: 55px !important;
+      font-size: 50px !important;
+    }
+    p{
+      padding-top: 17px;
     }
   }
 }

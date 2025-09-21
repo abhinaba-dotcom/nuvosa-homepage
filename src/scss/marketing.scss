@@ -3,6 +3,38 @@
     width: 100px;
   }
 }
+@media screen and (width<=450px) {
+  .marketing-container {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    .row{
+      gap: 1.5rem !important;
+    }
+  }
+  .marketing-card {
+    padding-top: 1.5rem !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    .card-body {
+      gap: 0 !important;
+    }
+  }
+}
+@media screen and (min-width: 750px) {
+   .marketing-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    .row {
+      .col-12 {
+        width: 245px;
+      }
+    }
+  }
+  .marketing-card {
+    box-shadow: 0px 17px 33px -14px rgba(2, 22, 5, 0.07);
+    border: none;
+  }
+}
 @media screen and (min-width: 1300px) {
   .marketing-container {
     .row {

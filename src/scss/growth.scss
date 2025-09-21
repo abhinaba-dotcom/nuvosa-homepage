@@ -18,17 +18,33 @@
 .growth-card:hover {
   transform: scale(1.2);
   background-color: v.$base-color-1;
-  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
+  box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1) !important;
 }
 .growth-container img {
   width: 131px;
+}
+@media screen and (width<=450px) {
+  .growth-container {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+   .growth-card {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1) !important;
+  }
 }
 @media screen and (min-width: 750px) {
   .growth-container {
     .row {
       gap: 8px;
+      .col-12 {
+        width: 32% !important;
+      }
     }
     .growth-card {
+      background-color: v.$base-color-1;
+      box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
       .card-top {
         img {
           width: unset;
@@ -41,8 +57,20 @@
 @media screen and (width>=1800px) {
   .growth-container {
     img {
-      width: 71px;
-      height: 71px;
+      width: 71px !important;
+      height: 71px !important;
+    }
+    .growth-card {
+      padding: 34px 48px 36px 30px;
+      box-shadow: unset;
+      .card-title {
+        font-size: 22px;
+        font-weight: 500;
+      }
+      .card-text {
+        font-size: 17px;
+        font-weight: 400;
+      }
     }
   }
 }

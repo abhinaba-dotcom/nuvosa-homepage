@@ -21,7 +21,7 @@
     }
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
   .hero-container__creative-team-container {
     display: none;
   }
@@ -47,6 +47,9 @@
   }
 }
 @media screen and (min-width: 1300px) {
+   h1 {
+    font-size: 70px !important;
+  }
   .hero-container {
     .hero-container-left {
       display: flex;
@@ -73,7 +76,18 @@
   }
 }
 @media screen and (width>=1800px) {
-      .hero-container {
+  h1 {
+    font-size: 90px !important;
+  }
+  .hero-container {
+    padding-left: 127px !important;
+    padding-right: 127px !important;
+    .row{
+      justify-content: space-between !important;
+    }
+    .button-box{
+      gap: 69px !important;
+    }
     .hero-container__creative-team-container {
       right: 600px;
       bottom: 25px !important;

@@ -14,14 +14,39 @@
 .optimising-container img {
   width: 131px;
 }
+@media screen and (width<=450px) {
+    .optimising-container {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    .row {
+      gap: 1.5rem !important;
+    }
+  }
+  .optimising-card {
+    gap: 8px !important;
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+}
 @media screen and (min-width: 750px) {
   .optimising-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
     .row {
-      gap: 4px;
+      gap: 24px;
+      .col-12{
+        width: 48% !important;
+      }
     }
   }
   .optimising-card {
     width: fit-content;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: v.$box-shadow-type-1;
     .card-top {
       img {
         width: unset;
@@ -32,6 +57,8 @@
 }
 @media screen and (min-width: 992px) {
   .optimising-container {
+        padding-left: 80px !important;
+    padding-right: 80px !important;
     .row {
       gap: 0px;
     }
@@ -39,8 +66,14 @@
 }
 @media screen and (min-width: 1300px) {
   .optimising-container {
+    margin-bottom: 2rem !important;
     h2 {
       font-size: 40px !important;
+    }
+    .row{
+      .col-12{
+        width: 25% !important;
+      }
     }
   }
   .optimising-card {
@@ -49,17 +82,18 @@
     border-top: none;
     border-bottom: none;
     transition: transform 0.3s ease;
+    box-shadow: none !important;
     &:hover {
       transform: scale(1);
-      box-shadow: v.$box-shadow-type-1;
+      box-shadow: v.$box-shadow-type-1 !important;
       background-color: #fff;
       border-radius: 0.25rem;
       border-bottom: 2px solid v.$special-color-1;
     }
   }
   .optimising-container {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 120px !important;
+    padding-right: 120px !important;
     .optimising-card {
       gap: 3rem !important;
       padding-top: 25px !important;
@@ -100,6 +134,16 @@
   .optimising-container {
     h2 {
       font-size: 55px !important;
+    }
+    .row{
+      .col-12{
+        .card{
+          gap: 91px !important;
+          .card-body{
+            gap: 21px !important;
+          }
+        }
+      }
     }
   }
   .optimising-container {

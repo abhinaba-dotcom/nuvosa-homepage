@@ -49,6 +49,11 @@
 .para-color2 {
   color: #828282;
 }
+@media screen and (width<=450px) {
+  .lets-talk-btn {
+    padding: 0px 20px !important;
+  }
+}
 @media screen and (min-width: 1300px) {
   .subsribe-container {
     background-color: v.$base-color-1;
@@ -155,13 +160,10 @@
     padding-left: 178px !important;
     padding-right: 178px !important;
   }
-  
 
   .p-17px {
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
   }
-
-
 }

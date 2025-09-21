@@ -1,3 +1,4 @@
+// Changes have been made
 .business-container {
   background-color: v.$base-color-2;
 }
@@ -28,11 +29,16 @@
     h2 {
       font-size: 55px !important;
     }
+    img{
+      width: 607px !important;
+       height: 343px !important;
+    }
   }
   .business-container {
     .row {
       padding-left: 333px;
       padding-right: 333px;
+      gap: 47px !important;
     }
   }
   .business-container {

@@ -20,29 +20,33 @@
     float: 0 0 auto;
   }
 }
-.carousel-indicators{
-    bottom: -34px !important;
+.carousel-indicators {
+  bottom: -34px !important;
 }
-.carousel-indicator-btn{
-    height: 10px !important;
-    width: 10px !important;
-    border-radius: 100% !important;
-    background-color: #E9E9E9 !important;
+.carousel-indicator-btn {
+  height: 10px !important;
+  width: 10px !important;
+  border-radius: 100% !important;
+  background-color: #e9e9e9 !important;
 }
-@media screen and (max-width: 450px){
-    .feedback-card{
-        width: 350px !important;
-    }
+@media screen and (max-width: 450px) {
+  .feedback-card {
+    width: 350px !important;
+  }
+  .feedback-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 @media screen and (min-width: 1300px) {
-  .feedback-container{
+  .feedback-container {
     h2 {
       font-size: 40px !important;
     }
   }
 }
 @media screen and (width>=1800px) {
-  .feedback-container{
+  .feedback-container {
     h2 {
       font-size: 55px !important;
     }

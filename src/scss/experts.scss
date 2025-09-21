@@ -14,15 +14,39 @@
 .expert-container .expert-container-top-img {
   width: 131px;
 }
+@media screen and (width<=450px) {
+  .expert-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-inner {
+    .carousel-item {
+      border-radius: 2px;
+      border: 1px solid rgba(239, 239, 239, 1);
+    }
+  }
+}
+@media screen and (min-width: 750px) {
+  .expert-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .expert-container {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+}
 @media screen and (min-width: 1300px) {
-  .expert-container{
+  .expert-container {
     h2 {
       font-size: 40px !important;
     }
   }
 }
 @media screen and (width>=1800px) {
-  .expert-container{
+  .expert-container {
     h2 {
       font-size: 55px !important;
     }

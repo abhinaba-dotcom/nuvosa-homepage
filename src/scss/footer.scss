@@ -6,9 +6,21 @@
 }
 
 @media screen and (width>=1800px) {
+  .footer-top-section{
+    gap: 26px !important;
+    li{
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
   .footer-end-section {
     padding-left: 183px;
     padding-right: 183px;
+    p, ul li{
+      font-size: 13px;
+      font-weight: 400;
+      opacity: 60%;
+    }
   }
   .footer-hr {
     width: 88% !important;

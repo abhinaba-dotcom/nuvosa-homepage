@@ -87,6 +87,7 @@
 }
 @media screen and (width>=1800px) {
   .pricing-container{
+    padding-bottom: 4rem !important;
     h2 {
       font-size: 55px !important;
     }
@@ -102,8 +103,30 @@
       }
     }
     .pricing-card {
-      width: 372px !important;
-      height: 523px !important;
+      padding: 65px 58px 79px 58px !important;
+      width: 400px !important;
+      // height: 523px !important;
+      .card-top{
+        gap: 34px !important;
+      }
+      .card-body{
+        padding-top: 0 !important;
+        .card-text{
+          font-size: 17px;
+          font-weight: 400;
+        }
+      }
+      .dollar{
+        font-size: 16px;
+        font-weight: 400;
+      }
+      .month{
+        font-size: 15px;
+        font-weight: 400;
+      }
+      sup{
+        top: -1.5rem !important;
+      }
     }
   }
 }

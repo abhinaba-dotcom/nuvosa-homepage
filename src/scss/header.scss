@@ -63,14 +63,24 @@
   }
 }
 @media screen and (min-width: 1800px) {
+  .header-lets-talk-btn{
+    padding: 26px 30px ;
+  }
   .navbar {
-    padding-left: 127px !important;
+    padding-top: 58px !important;
+    padding-left: 125px !important;
     padding-right: 127px !important;
+    .navbar-collapse{
+      padding-left: 16px;
+    }
     .navbar-container {
       padding-left: 0 !important;
       padding-right: 0 !important;
+      img{
+
+      }
       .header-navbar-lists{
-        gap: 155px !important;
+        gap: 105px !important;
         form{
           gap: 1.5rem !important;
         }
@@ -78,7 +88,7 @@
     }
   }
   .navbar-nav {
-    gap: 67px !important;
+    gap: 48px !important;
     .nav-link {
       font-size: 24px !important;
       font-weight: 400 !important;

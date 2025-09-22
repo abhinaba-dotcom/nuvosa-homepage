@@ -15,7 +15,7 @@ form.addEventListener("submit", async (event) => {
       console.log({ error: "Email can't be empty." });
       return;
     }
-    const formData = { state: "success", data: { name, email } };
+    const formData = { state: "success", data: { name, email, timestamp: Date.now()}};
     console.log(formData);
   } catch (error) {
     console.error("Error:", error);

@@ -65,6 +65,7 @@
 }
 @media screen and (width>=1800px) {
   .marketing-card {
+    gap: 10px;
     h5 {
       font-size: 38px;
     }
@@ -82,7 +83,10 @@
     }
   }
   .marketing-container {
+    padding-top: 78px !important;
+    padding-left: 70px !important;
     .row {
+      gap: 63px !important;
       .col-12 {
         .card {
           padding: 30px 18px 17px 25px !important;

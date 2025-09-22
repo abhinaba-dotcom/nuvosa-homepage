@@ -15,8 +15,10 @@
   border-radius: v.$button-radius-2;
   border: 1px solid black;
   width: fit-content;
-  padding: 14px 28px;
+  padding: 20px 48px !important;
   background-color: transparent;
+  font-size: 24px;
+  font-weight: 500;
 }
 .special-card {
   background-color: v.$special-color-1;

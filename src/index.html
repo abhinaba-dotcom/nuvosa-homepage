@@ -1569,18 +1569,18 @@
           <p class="text-center text-lg-start para-color2 font-20px">
             Enter your email and get updated new products & news
           </p>
-          <div
+          <form id="subscribe-form" action="/submit-data" method="POST"
             class="button-box d-flex gap-4 flex-column flex-md-row pt-4 align-items-center"
           >
-            <input class="" type="text" placeholder="Name" />
-            <input class="" type="text" placeholder="Email Address" />
-            <button
+            <input id="name" name="name" required class="" type="text" placeholder="Name" />
+            <input id="email" name="email" required class="" type="email" placeholder="Email Address" />
+            <button id="subscribe-form__submit-btn"
               class="submit-btn btn subscribe-container__button"
               type="submit"
             >
               Subscribe
             </button>
-          </div>
+          </form>
         </div>
       </section>
     </main>

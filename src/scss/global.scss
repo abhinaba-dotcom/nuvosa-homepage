@@ -21,13 +21,58 @@ body {
   overflow-x: unset;
   font-family: "Poppins", sans-serif !important;
 }
+.validation-text-name,
+.validation-text-email {
+  visibility: hidden;
+}
+.demo-toast {
+  width: fit-content;
+  background-color: greenyellow;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 1rem;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.demo-toast-animate-in {
+    animation: demo-toast-animate 1.5s 1 forwards;
+}
+
+.demo-toast-animate-out {
+   animation: demo-toast-animate 1.5s 1 forwards;
+    animation-direction: reverse;
+}
+
+@keyframes demo-toast-animate {
+  from{
+    bottom: -20%;
+  }
+  to {
+    bottom: 200px;
+  }
+}
 @media screen and (width<=450px) {
   p {
     font-size: 14px;
   }
+  .marketing-container {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
 }
 @media screen and (min-width: 1300px) {
+  h1 {
+    font-size: 70px !important;
+  }
   body {
     background-image: url("../../src/assets/images/base-bg.png");
+  }
+}
+@media screen and (width>=1800px) {
+  h1 {
+    font-size: 90px !important;
   }
 }

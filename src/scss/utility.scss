@@ -15,10 +15,10 @@
   border-radius: v.$button-radius-2;
   border: 1px solid black;
   width: fit-content;
-  padding: 20px 48px !important;
+  padding: 14px 22px !important;
   background-color: transparent;
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 400;
 }
 .special-card {
   background-color: v.$special-color-1;
@@ -133,6 +133,15 @@
   }
 }
 @media screen and (width>=1800px) {
+  .lets-talk-btn {
+  border-radius: v.$button-radius-2;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 20px 48px !important;
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: 500;
+}
   h1 {
     font-size: 90px !important;
   }

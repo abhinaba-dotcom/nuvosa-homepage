@@ -36,15 +36,25 @@
   }
   .business-container {
     .row {
-      padding-left: 333px;
-      padding-right: 333px;
       gap: 47px !important;
     }
   }
   .business-container {
-    padding-left: 333px;
-    padding-right: 333px;
-    padding-top: 98px;
-    padding-bottom: 98px;
+    padding-left: 180px !important;
+    padding-right: 180px !important;
+    padding-top: 60px !important;
+    padding-bottom: 68px !important;
+    button{
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 2px !important;
+    }
+    .padded-container-left {
+      gap: 20px !important;
+    }
+    .padded-container-right{
+      padding-top: 34px !important;
+      padding-right: 75px !important;
+    }
   }
 }

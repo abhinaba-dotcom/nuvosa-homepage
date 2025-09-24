@@ -86,9 +86,18 @@
   }
   .hero-container {
     padding-top: 85px !important;
+    .hero-container-left{
+      padding-bottom: 44px !important;
+    }
     .hero-container-right {
       margin-right: -35px;
       margin-top: 28px;
+    }
+    .expert-icon {
+      width: 220px !important;
+      height: auto;
+      bottom: -15px;
+      margin-left: 18px;
     }
   }
   h1 {
@@ -104,8 +113,8 @@
       gap: 69px !important;
     }
     .hero-container__creative-team-container {
-      right: 600px;
-      bottom: 25px !important;
+      right: 590px;
+      bottom: 30px !important;
       width: 229px;
       height: 114px;
     }

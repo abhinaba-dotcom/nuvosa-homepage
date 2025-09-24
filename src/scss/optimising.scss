@@ -147,16 +147,21 @@
     }
   }
   .optimising-container {
+    padding-top: 135px !important;
+    padding-bottom: 195px !important;
     padding-left: 172px;
   }
   .optimising-container {
     h2 {
       padding-bottom: 37px;
     }
+    .optimising-container__heading-para{
+      width: 45% !important;
+    }
     .optimising-card {
       width: 400px !important;
       height: 472px;
-      padding: 64px 34px 92px 34px !important;
+      padding: 56px 44px 98px 14px !important;
       .card-top {
         img {
           width: 74px;

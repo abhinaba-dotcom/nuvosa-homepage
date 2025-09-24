@@ -55,14 +55,19 @@
   }
 }
 @media screen and (width>=1800px) {
+  .font-size-14px{
+    font-size: 14px;
+  }
   .growth-container {
+    padding-top: 58px !important;
     img {
       width: 71px !important;
       height: 71px !important;
     }
     .growth-card {
-      padding: 34px 48px 36px 30px;
+      padding: 34px 38px 36px 15px ;
       box-shadow: unset;
+      gap: 6px !important;
       .card-title {
         font-size: 22px;
         font-weight: 500;
@@ -70,6 +75,9 @@
       .card-text {
         font-size: 17px;
         font-weight: 400;
+      }
+      .card-body{
+        gap: 12px;
       }
     }
   }

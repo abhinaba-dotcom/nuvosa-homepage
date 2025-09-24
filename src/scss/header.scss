@@ -69,9 +69,15 @@
   .navbar {
     padding-top: 58px !important;
     padding-left: 125px !important;
-    padding-right: 127px !important;
+    padding-right: 128px !important;
     .navbar-collapse{
       padding-left: 16px;
+      form{
+        img{
+          width: 24px !important;
+          height: 24px !important;
+        }
+      }
     }
     .navbar-container {
       padding-left: 0 !important;
@@ -88,7 +94,7 @@
     }
   }
   .navbar-nav {
-    gap: 48px !important;
+    gap: 45px !important;
     .nav-link {
       font-size: 24px !important;
       font-weight: 400 !important;

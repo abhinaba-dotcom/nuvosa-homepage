@@ -1,59 +1,66 @@
-.choose-us-container{
+.choose-us-container {
   background-color: v.$base-color-2;
 }
-.choose-us-card{
+.choose-us-card {
   transition: transform 0.3s ease;
 }
-.choose-us-card:hover{
+.choose-us-card:hover {
   transform: scale(1.2);
   background-color: v.$base-color-1;
   box-shadow: 0px 34px 50px -17px rgba(2, 22, 5, 0.1);
 }
-.choose-us-card:hover{
+.choose-us-card:hover {
   transform: scale(1.1);
 }
 @media screen and (width<=450px) {
-   .choose-us-container {
+  .choose-us-container {
     .row {
       margin-top: 0 !important;
     }
   }
 }
 @media screen and (min-width: 992px) {
-  .choose-us-container{
-        padding-left: 80px;
+  .choose-us-container {
+    padding-left: 80px;
     padding-right: 80px;
-    .row{
-      .col-12{
+    .row {
+      .col-12 {
         width: 33% !important;
       }
     }
   }
 }
 @media screen and (min-width: 1300px) {
-  .choose-us-container{
+  .choose-us-container {
     h2 {
       font-size: 40px !important;
     }
   }
 }
 @media screen and (width>=1800px) {
-  .choose-us-container{
+  .w-responsive-50 {
+    width: 52% !important;
+  }
+  .choose-us-container {
     h2 {
       font-size: 55px !important;
     }
-    .choose-us-container__para{
+    .choose-us-container__para {
       margin-top: 21px;
     }
-    .row{
-
-      .col-12{
+    .row {
+      padding-top: 0 !important;
+      margin-top: 16px !important;
+      .col-12 {
         width: fit-content !important;
       }
     }
-    .choose-us-card{
+    .choose-us-card {
       width: 365px !important;
       height: 548px !important;
+      .card-body{
+        padding-top: 0px !important;
+      }
     }
   }
 }
